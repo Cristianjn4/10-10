@@ -1,4 +1,4 @@
-export function Item() {
+export function HighcomfortItem() {
     return(
 
         <section class=" py-8 bg-white md:py-16 antialiased">
