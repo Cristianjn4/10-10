@@ -2,7 +2,7 @@
 export function Lojas(){
     return(
  
-<section className="overflow-hidden  bg-gradient-to-t from-white to-neutral-100 md:flex sm:block">
+<section className="overflow-hidden  bg-white md:flex sm:block">
 
 
 <section className="sm:grid sm:grid-cols-2 sm:items-center lg:justify-cente mx-auto">
@@ -17,7 +17,7 @@ export function Lojas(){
     className="w-[450px] h-[450px] object-cover m-auto rounded-md"
     />
       <h3 className="text-2xl font-bold mt-4 text-gray-900 md:text-3xl">
-        Loja Simmons em Jundiaí 
+        Loja Restonic em Jundiaí 
       </h3>
 
 
@@ -60,7 +60,7 @@ export function Lojas(){
     className="w-[450px] h-[450px] object-cover m-auto rounded-md"
     />
       <h3 className="text-2xl font-bold mt-4 text-gray-900 md:text-3xl">
-      Loja Simmons em Itatiba
+      Loja Restonic em Itatiba
       </h3>
 
 

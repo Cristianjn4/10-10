@@ -1,70 +1,53 @@
-import Search from "./Search";
+import React from "react";
 
 export default function Header() {
+
     return(
-      <div>
+      <header> 
 
-        <header className="text-sm fixed item-center w-full pt-6 h-32 z-10">
+        <div className="text-sm fixed item-center w-full mt-6 z-10">
 
-            <div className="hidden lg:block md:block bg-gradient-to-b from-stone-800 to-transparent">
-            <div className="w-full max-w-[1246] px-[20px] mx-auto">
-            <div className="flex items-center justify-between ">
+            <div className="hidden lg:block md:block bg-white h-24 items-center shadow-md">
+            <div className="w-full px-[20px] mx-auto">
+            <div className="flex items-center justify-between">
                 
                 <div className="flex items-center gap-10 text-white">
                     <a href="/">
-                    <img className="w-12 rounded-full" src="logo50sim.jpg"></img>
+                    <img className="h-14 mt-5 mr-32" src="logopreta.png"></img>
                     </a>
 
-                    <ul className="flex items-center gap-12">
+                    <ul className="flex items-center gap-12 text-black">
 
                     <li>
-                    <a href="/" className="flex items-center gap-3 rounded-b-sm hover:border-b-2 hover:focus:font-bold ">Home</a>
+                    <a href="/" className="flex items-center gap-3 border-[#264b8a] rounded-b-sm hover:border-b-2 hover:focus:font-bold ">HOME</a>
                     </li>
 
                     <li>
-                        <a href="/products" className="flex items-center gap-3 rounded-b-sm hover:border-b-2 hover:focus:font-bold">Produtos</a>
+                        <a href="/products" className="flex items-center gap-3 border-[#264b8a] rounded-b-sm hover:border-b-2 hover:focus:font-bold">PRODUTOS</a>
                         <a/>
                     </li>
 
                     <li>
-                        <a href="/faq" className="flex items-center gap-3 rounded-b-sm hover:border-b-2 hover:focus:font-bold">FAQ</a>
+                        <a href="/faq" className="flex items-center gap-3 border-[#264b8a] rounded-b-sm hover:border-b-2 hover:focus:font-bold">FAQ</a>
                     </li>
                     
                     <li>
-                        <a href="/faq#contact" className="flex items-center gap-3 rounded-b-sm hover:border-b-2 hover:focus:font-bold">Fale Conosco</a>
+                        <a href="/faq#contact" className="flex items-center gap-3 border-[#264b8a] rounded-b-sm hover:border-b-2 hover:focus:font-bold">FALE CONOSCO</a>
                     </li>
 
                     <li>
-                        <a href="/#mapsLocate" target="blank" className="flex items-center gap-3 w-full my-10 py-1 px-2 text-white bg-transparent border-2 border-white rounded-full hover:bg-white hover:text-black ">Chegue até nós</a>                            
+                        <a href="/#mapsLocate" target="blank" className="flex items-center gap-3 hover:border-[#264b8a] w-full my-10 py-1 px-2 text-black hover:text-[#264b8a] bg-transparent border-2 border-black rounded-full hover:font-semibold  ">CHEGUE ATÉ NÓS</a>                            
                     </li>
 
                     </ul>
                 </div>
                  
-                <div className="hidden lg:block"> 
-                <div className="flex items-center gap-3 pr-36 ">
-                <Search>
-                </Search>
-                    <a className="pr-3" href="/login">
-                    <span>
-                    <svg className="h-5 w-5 text-white"  fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
-                    </span>
-                    </a>
-
-                    <button>
-                    <span>
-                    <svg className="h-5 w-5 text-white"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="2"  stroke-linecap="round"  stroke-linejoin="round">  <circle cx="12" cy="12" r="10" />  <path d="M9.09 9a3 3 0 0 1 5.83 1c0 2-3 3-3 3" />  <line x1="12" y1="17" x2="12.01" y2="17" /></svg>
-                    </span>
-                    </button>
- 
-                </div>
-                </div>
+       
 
             </div>
         </div>
             </div>
-         </header>
+         </div>
 
         {/* NAVBAR MOBILE */}
 
@@ -74,7 +57,7 @@ export default function Header() {
       <nav class="fixed top-10 z-30 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700 ">
   <div class="px-3 py-3 lg:px-5 lg:pl-3">
     <div class="flex items-center justify-between ">
-      <div class="flex items-center justify-start rtl:justify-end">
+      <div class="flex items-center rtl:justify-end">
         <button data-drawer-target="logo-sidebar" data-drawer-toggle="logo-sidebar" aria-controls="logo-sidebar" type="button" class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
             <span class="sr-only">Open sidebar</span>
             <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -82,7 +65,7 @@ export default function Header() {
             </svg>
          </button>
         <a href="/" class="flex ms-2 md:me-24 ">
-        <img className="w-12 rounded-full" src="logo50sim.jpg"></img>
+        <img className="" src="logopreta.png"></img>   
           <span class="self-center text-xl font-semibold sm:text-2xl whitespace-nowrap dark:text-white"></span>
         </a>
       </div>
@@ -187,7 +170,7 @@ export default function Header() {
 
 
 
-        </div> 
+        </header> 
 
 
     )

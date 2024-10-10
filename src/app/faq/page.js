@@ -9,6 +9,7 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Whatsicon } from "../components/Whatsapp";
 import { About } from "../components/About";
+import { CarouselMob } from "../components/CarouselMob";
 
 
 export default function (){
@@ -18,6 +19,7 @@ export default function (){
       <Header/>
       <Alerts/>
       <Carousel/>
+      <CarouselMob/>
       <About/>
       <FAQ/>
       <Contact/>

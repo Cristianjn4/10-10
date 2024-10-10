@@ -1,31 +1,22 @@
 export function Destaque(){
     return(
-        <div className="">
-             <div className="pt-32 md:p-12 lg:px-16 lg:py-24 align items-center text-center bg-gray-100 pb-10">
-                <div className="mx-2 block lg:flex ltr:sm:text-left rtl:sm:text-right">
-                <img src="logoR.png" className="m-auto w-44 mb-14 rounded-full" />
+        <div className=" block mt-40 lg:mt-0 w-full h-auto bg-gradient-to-b bg-white align justify-center py-11 gap-8">
 
-                <div className="bg-white w-3/4 p-6 rounded-2xl shadow-lg m-auto">
-                <p className="px-4 lg:px-28 font-medium text-lg text-black pt-4 ">
-                <h3 className="text-3xl px-8 font-bold text-black py-4">
-                    Destaque Loja Perfeita Simmons
-                </h3> 
-                Conheça a Simmons Casa Orner e tenha melhor experiência na escolha do seu colchão ideal!
-                A Exclusiva que é "Destaque Loja Perfeita" entre as mais de 130 lojas no Brasil. <br/>
-                </p>
-                <div className="mt-6 relative ">
-                <a
-                href="https://www.instagram.com/stories/highlights/17856368678956115/"
-                target="blank" className="inline-block rounded-full bg-black px-10 py-3 text-sm font-medium text-white transition hover:bg-white hover:text-black border hover:border-black hover:font-medium focus:outline-none">
-                Confira agora mesmo!
-                </a>
-                </div>
-                </div>
-                
-                
-                
+            <h3 className="text-3xl text-gray-900 align text-center mb-8">
+            Premios e <strong> certificados </strong>
+            </h3>
+            
+            <div className=" h-auto  md:flex lg:flex align m-auto gap-8 text-center ">
+                <div className="bg-transparent h-auto rounded-full m-auto py-3">
+                    <a href="/products">
+                    <img  src="https://restonic.com.br/wp-content/uploads/2023/08/selos-2023-min-e1714164950190.png" alt="" className=" lg:px-20" />
+                    </a>
+                    <br/>
                 </div>
             </div>
+           
+
         </div>
     )
 }
+

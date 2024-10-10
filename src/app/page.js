@@ -2,7 +2,7 @@
 
 import { Alerts } from "./components/Alerts";
 import { Carousel } from "./components/Carousel";
-import { CarouselBody } from "./components/CarouselBody";
+import { CarouselMob } from "./components/CarouselMob";
 import { Categorias } from "./components/Categorias";
 import { Depoimentos } from "./components/Depoimentos";
 import Footer from "./components/Footer";
@@ -11,29 +11,27 @@ import { VideoFull } from "./components/Video";
 import { Whatsicon } from "./components/Whatsapp";
 import { Destaque } from "./components/Destaque";
 import { Lojas } from "./components/Lojas";
-import { Hoteis } from "./components/Hoteis";
-import { TrocaSolidaria } from "./components/TrocaSolidaria";
 import {Duvidas} from "./components/Duvidas";
-import {GaleriaHome} from "./components/Galeria-Home";
 import Promotion from "./components/Promotion";
+import Promotion2 from "./components/Promotion2";
+import { Promotion3 } from "./components/Promotion3";
 
 export default function Home() {
+
   return(
     <>
       <Whatsicon/>
       <Alerts/>
-      <Header/>   
+      <Header/>  
       <Carousel/>
-      <Destaque/>
-      <Promotion/>
-      <Lojas/>
+      <CarouselMob/>
       <Categorias/>
-      <CarouselBody/>
-      <Hoteis/>
-      <VideoFull/>
+      <Promotion/> 
+      <Destaque/>
+      <Promotion3/>
       <Depoimentos/>
-      <TrocaSolidaria/>
-      <GaleriaHome/>
+      <Promotion2/>
+      <VideoFull/>
       <Duvidas/>
       <Footer/>
     </>

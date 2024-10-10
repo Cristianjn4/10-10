@@ -1,10 +1,11 @@
 export default function Footer() {
     return(
-        <footer className="bg-gradient-to-r from-neutral-800 to-neutral-950 bottom-0">
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
-                <div className="md:flex md:justify-between">
-                <div className="mb-6 md:mb-0">
-                    <img src="logoW.png" className="w-40 h-auto" ></img>
+        <footer className="bg-[#4E6282] bottom-0">
+            <div className="mx-auto w-full pt-8 ">
+                <div className="mx-10 md:flex md:justify-between">
+                <div className="items-center justify-center md:mb-0">
+                    <img src="quartoslogo.png" className="w-40 h-auto hidden lg:block" ></img>
+                    <img src="logobranca.png" className="m-auto h-auto block lg:hidden p-4" ></img>
                 </div>
                 <div className=" grid-cols-3 gap-10 grid">
                     <div className="hidden lg:block">
@@ -34,12 +35,12 @@ export default function Footer() {
                             <li className="mb-4">
                             
                             <a href="https://www.google.com/maps/place/R.+do+Retiro,+1800+-+Jardim+Paris,+Jundia%C3%AD+-+SP,+13209-201/@-23.1806883,-46.9055003,17z/data=!4m6!3m5!1s0x94cf25d55fe1f14b:0xba862ef8910a9809!8m2!3d-23.1806933!4d-46.9029254!16s%2Fg%2F11c5mltkk5?entry=ttuttps://github.com/themesberg/flowbite" 
-                            target="blank" className="hover:underline">Loja Simmons em Jundiaí-SP <br></br> Rua do Retiro, 1800</a>
+                            target="blank" className="hover:underline">Loja Restonic em Jundiaí-SP <br></br> Rua do Retiro, 1800</a>
                             </li>
 
                             <li>
                                 <a href="https://www.google.com/maps/place/Casa+Orner/@-23.0122041,-46.8429668,17z/data=!3m1!4b1!4m6!3m5!1s0x94cf276e1d135f83:0x4a25929258ead495!8m2!3d-23.0122041!4d-46.8429668!16s%2Fg%2F11h197jndx?entry=ttu" 
-                                target="blank" className="hover:underline">Loja Simmons em Itatiba-SP <br></br> Rua Luiz Scavone, 511</a>
+                                target="blank" className="hover:underline">Loja Restonic em Itatiba-SP <br></br> Rua Luiz Scavone, 511</a>
                             </li>
                         </ul>
 
@@ -67,20 +68,32 @@ export default function Footer() {
                     </div>
                 </div>
             </div>
-            <hr className="my-6 border-stone-200 sm:mx-auto dark:border-stone-700 lg:my-8" />
-            <div className="sm:flex sm:items-center sm:justify-between">
-                <span className="text-sm text-stone-500 sm:text-center dark:text-stone-300">© 2024                                                                                                                                     <a href="https://flowbite.com/" className="hover:underline">Simmons Casa Orner</a>. All Rights Reserved.
-                </span>
-                <div className="flex mt-4 sm:justify-center sm:mt-0">
+            <hr className="mx-10 border-stone-200 sm:mx-auto dark:border-stone-700 lg:my-8" />
+             <div className="mb-72 lg:mb-0 mt-10">
+             <h2 className="flex my-2 text-sm font-semibold text-white uppercase text-center items-center"> <p className="m-auto"> NOSSAS MARCAS </p></h2>
+                <div className=" block sm:flex w-full mb-12 h-20 justify-between">
+                    <img src="https://restonic.com.br/wp-content/smush-webp/2023/06/restonic-american-mattress-min.png.webp" className="pt-2 h-10 m-auto"/>
+                    <img src="https://restonic.com.br/wp-content/uploads/2023/06/stallion-e1706614059967-1.png" className="h-28 m-auto"/>
+                    <img src="https://restonic.com.br/wp-content/uploads/2023/06/orbhes-e1706614077483-1.png" className="h-28 m-auto"/>
+                    <img src="https://restonic.com.br/wp-content/uploads/2023/06/kingpedic-e1706614096364-1.png" className="h-28 m-auto"/>
 
-                    <a href="https://www.facebook.com/simmons.casaorner" target="blank" className="text-stone-500 hover:text-stone-900 dark:hover:text-white">
+                </div>
+
+             </div>
+             <br></br>
+            <div className="bg-[#262223] p-3 sm:flex sm:items-center sm:justify-between">
+                <span className="text-sm text-white sm:text-center dark:text-stone-300">Copyright© 2024 <a href="https://flowbite.com/" className="hover:underline"> Casa Restonic Jundiaí - </a> All Rights Reserved.
+                </span>
+                <div className="flex mt-4 mr-24 sm:justify-center sm:mt-0">
+
+                    <a href="https://www.facebook.com/simmons.casaorner" target="blank" className="text-white hover:text-stone-900 dark:hover:text-white">
                         <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
                                 <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
                             </svg>
                         <span className="sr-only">Facebook</span>
                     </a>
 
-                    <a href="https://www.instagram.com/simmons.casaorner" target="blank" className="text-stone-500 hover:text-stone-900 dark:hover:text-white ms-5">
+                    <a href="https://www.instagram.com/simmons.casaorner" target="blank" className="text-white hover:text-stone-900 dark:hover:text-white ms-5">
                     <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24">
                     <path fill="currentColor" fill-rule="evenodd" d="M3 8a5 5 0 0 1 5-5h8a5 5 0 0 1 5 5v8a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5V8Zm5-3a3 3 0 0 0-3 3v8a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3V8a3 3 0 0 0-3-3H8Zm7.597 2.214a1 1 0 0 1 1-1h.01a1 1 0 1 1 0 2h-.01a1 1 0 0 1-1-1ZM12 9a3 3 0 1 0 0 6 3 3 0 0 0 0-6Zm-5 3a5 5 0 1 1 10 0 5 5 0 0 1-10 0Z" clip-rule="evenodd"/>
                     </svg>
@@ -88,7 +101,7 @@ export default function Footer() {
                         <span className="sr-only">Instagram </span>
                     </a>
 
-                    <a href="https://www.youtube.com/@casaorner2636" target="blank" className="text-stone-500 hover:text-stone-900 dark:hover:text-white ms-5">
+                    <a href="https://www.youtube.com/@casaorner2636" target="blank" className="text-white hover:text-stone-900 dark:hover:text-white ms-5">
                     <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 576 512"><path d="M549.7 124.1c-6.3-23.7-24.8-42.3-48.3-48.6C458.8 64 288 64 288 64S117.2 64 74.6 75.5c-23.5 6.3-42 24.9-48.3 48.6-11.4 42.9-11.4 132.3-11.4 132.3s0 89.4 11.4 132.3c6.3 23.7 24.8 41.5 48.3 47.8C117.2 448 288 448 288 448s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zm-317.5 213.5V175.2l142.7 81.2-142.7 81.2z"/></svg>
                         <span className="sr-only">Youtube</span>
                     </a>

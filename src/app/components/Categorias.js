@@ -1,15 +1,18 @@
 export function Categorias(){
     return(
-        <div className=" w-full h-auto bg-gradient-to-b from-white to-neutral-300  align justify-center py-11 gap-8">
+        <div className=" w-full h-auto bg-gradient-to-b bg-white align justify-center py-11 gap-8">
 
-            <h3 className="text-2xl font-bold text-gray-900 md:text-3xl  align text-center mb-8">
-            Conforto e Qualidade Simmons
+            <h3 className="block lg:hidden text-3xl text-gray-900 align text-center mb-8">
+            <strong> Categorias </strong> de Produtos
             </h3>
+
+            <h3 className="hidden md:block text-2xl text-gray-900 md:text-3xl  align text-center mb-8">
+            <strong>Conforto</strong>, <strong> Qualidade </strong> e <strong>Tecnologia</strong> que só a <strong>Orner Quartos</strong> pode oferecer            </h3>
             
             <div className="w-2/3 h-auto  md:flex lg:flex align m-auto gap-8 text-center ">
                 <div className="bg-transparent w-40 rounded-full m-auto py-3">
                     <a href="/products">
-                    <img  src="https://images.tcdn.com.br/img/img_prod/1223675/cama_box_com_colchao_king_size_simmons_titanium_limited_edition_193x2030_873_1_dac4bff5d1cd5e3f549bfd5b2d34418f.jpg" alt="" className="bg-white w-40 h-40 rounded-full shadow-lg border-2 border-transparent hover:border-blue-600" />
+                    <img  src="Ecomax Restonic.png" alt="" className="bg-white w-40 h-40 rounded-full shadow-lg border-2 border-transparent hover:border-blue-600" />
                     </a>
                     <br/>
                     <a href="/products" className=" b-3 font-normal text-black text-center w-auto"> Colchões </a>

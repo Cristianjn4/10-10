@@ -11,7 +11,7 @@ export default function FAQ() {
             <p className="mt-3 font-light text-lg text-neutral-500 md:text-xl">Perguntas Frequentes</p> 
             <br/>
             <p className="mt-3 font-medium text-lg text-black md:text-xl text-center">
-            Saiba mais sobre a Simmons Casa Orner e nossa política de suporte e atendimento ao cliente.
+            Saiba mais sobre a Orner Quartos e nossa política de suporte e atendimento ao cliente.
             </p>
 
         </div>
@@ -63,7 +63,7 @@ export default function FAQ() {
                             </span>
                     </summary>
                     <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                    A Simmons Casa Orner conta com uma transportadora própria, o que permite envio mais rápido da mercadoria e na baixa incidência de avarias para com o produto. Prezamos por uma entrega mais rápida e segura, para trazer a melhor experiência de compra para nossos clientes.
+                    A Orner Quartos conta com uma transportadora própria, o que permite envio mais rápido da mercadoria e na baixa incidência de avarias para com o produto. Prezamos por uma entrega mais rápida e segura, para trazer a melhor experiência de compra para nossos clientes.
                     </p>
                 </details>
             </div>
@@ -80,7 +80,32 @@ export default function FAQ() {
                             </span>
                     </summary>
                     <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                    Realizamos entrega para região de São Paulo, capital e interior.
+                    Realizamos entrega para região de São Paulo, capital e interior. <br/><br/>
+                    Regiões atendidas: 
+                        Jundiaí,
+                        Itatiba,
+                        Americana,
+                        Amparo,
+                        Atibaia,
+                        Barueri,
+                        Bragança Paulista,
+                        Cajamar,
+                        Campinas,
+                        Campo Limpo Paulista,
+                        Hortôlandia,
+                        Indaiatuba,
+                        Itu,
+                        Itupeva,
+                        Jaguariuna,
+                        Louveira,
+                        Morungaba,
+                        Santana do Parnaiba,
+                        São Paulo,
+                        Valinhos,
+                        Várzea Paulista,
+                        Vinhedo.
+
+
                     </p>
                 </details>
             </div>
@@ -97,7 +122,7 @@ export default function FAQ() {
                             </span>
                     </summary>
                     <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                    Havendo a disponibilidade de estoque em apenas 12H a Simmons Casa Orner relaiza a entrega e o melhor, sem custos adicionais ao seu pedido! Caso não haja a disponibilidade temos um prazo de espera de pelo menos 15 dias para que o produto seja enviado.
+                    Havendo a disponibilidade de estoque em apenas 12H a Orner Quartos relaiza a entrega e o melhor, sem custos adicionais ao seu pedido! Caso não haja a disponibilidade temos um prazo de espera de pelo menos 15 dias para que o produto seja enviado.
                     </p>
                 </details>
             </div>
@@ -118,12 +143,11 @@ export default function FAQ() {
                     </p>
                 </details>
                     </div>
-                </div>
 
-                <div className="py-5">
+                    <div className="py-5">
                 <details className="group">
                     <summary className="text-black flex cursor-pointer list-none items-center justify-between font-medium">
-                        <span> Quem fabrica a Simmons no Brasil? </span>
+                        <span> O que é um colchão ROLLED? </span>
                         <span className="transition group-open:rotate-180">
                                 <svg fill="none" height="24" shape-rendering="geometricPrecision"
                                     stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -133,54 +157,58 @@ export default function FAQ() {
                             </span>
                     </summary>
                     <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                    Flex Bedding Group - No Brasil a marca Simmons passa a fazer parte da Flex Bedding Group, um dos maiores grupos de descanso do mundo, sendo produzida pela Flex do Brasil. Localizada no município de Limeira-SP a planta brasileira tem 20mil m² e capacidade para produzir 1500 colchões por dia. 
-                    O Grupo Flex tem operações em grandes países como Espanha, Portugal, Reino Unido, Estados Unidos, Canada, Chile e no Brasil.
-                     </p>
+                    Os colchões Rolleds são produzidos com características especiais que permitem que os mesmos sejam embalados prensados a vácuo e enrolados. Esta situação só é possível em razão da alta expertise de fabricação da Restonic e da elevada qualidade dos componentes utilizados para fabricação deste colchão.                    </p>
+                </details>
+            </div>
+
+                    <div className="py-5">
+                <details className="group">
+                    <summary className="text-black flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span> Como funciona a garantia? </span>
+                        <span className="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
+                    Antes de prosseguir, recomendamos que você leia primeiramente a garantia em nossa seção que trata deste assunto. Caso não possua mais o certificado, você pode fazer o download dele. Para ter direito a solicitar a garantia, é importante observar que a compra deve ter sido feita no máximo há 1 ano. Dessa forma, você poderá requerer a garantia dentro desse prazo estabelecido.
+                    </p>
                 </details>
                     </div>
 
+
                     <div className="py-5">
-                    <details className="group">
-                        <summary className="text-black flex cursor-pointer list-none items-center justify-between font-medium">
-                            <span> Qual a durabilidade de um colchão Simmons? </span>
-                            <span className="transition group-open:rotate-180">
-                                    <svg fill="none" height="24" shape-rendering="geometricPrecision"
-                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                        stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                                        <path d="M6 9l6 6 6-6"></path>
-                                    </svg>
-                                </span>
-                        </summary>
-                        <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                        A certificação Inmetro veio exatamente para melhorar e padronizar o mercado, garantindo ao consumidor produtos de qualidade superior. Qual o tempo de durabilidade dos produtos Simmons? A empresa não estipula um prazo fixo para duração de seus produtos, mas recomenda a avaliação do colchão no prazo de 5 (cinco) anos.                        </p>
-                    </details>
-                </div>
-
-                <div className="py-5">
-                    <details className="group">
-                        <summary className="text-black flex cursor-pointer list-none items-center justify-between font-medium">
-                            <span> Qual é a melhor marca de colchão? </span>
-                            <span className="transition group-open:rotate-180">
-                                    <svg fill="none" height="24" shape-rendering="geometricPrecision"
-                                        stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
-                                        stroke-width="1.5" viewBox="0 0 24 24" width="24">
-                                        <path d="M6 9l6 6 6-6"></path>
-                                    </svg>
-                                </span>
-                        </summary>
-                        <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
-                        A Simmons é reconhecida globalmente pela inovação e qualidade de seus colchões, destacando-se pela tecnologia de molas ensacadas Beautyrest, que proporciona suporte personalizado. Presente em mais de 100 países, a marca se destaca pela adaptabilidade e compreensão das necessidades dos consumidores, consolidando sua liderança no mercado de colchões.                        </p>
-                    </details>
-                </div>
-                
-                </div>
-
-                
+                <details className="group">
+                    <summary className="text-black flex cursor-pointer list-none items-center justify-between font-medium">
+                        <span> Posso utilizar um colchão novo em uma base antiga? </span>
+                        <span className="transition group-open:rotate-180">
+                                <svg fill="none" height="24" shape-rendering="geometricPrecision"
+                                    stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="1.5" viewBox="0 0 24 24" width="24">
+                                    <path d="M6 9l6 6 6-6"></path>
+                                </svg>
+                            </span>
+                    </summary>
+                    <p className="group-open:animate-fadeIn mt-3 text-neutral-600">
+                    O seu novo colchão deve ser utilizado sobre uma superfície reta, estruturada e integra. Caso sua base ou cama, atendam estes requisitos, não existe restrição. Bases sem o suporte adequado, podem causar danos a estrutura de seu novo colchão, afetando assim também na aprovação ou não da troca dentro da garantia.                    </p>
+                </details>
+                    </div>
 
 
+
+
+
+
+
+
+
+            </div>
                 
-                
-                </div>
+            </div>
+        </div>
         </div>
     )
 }
