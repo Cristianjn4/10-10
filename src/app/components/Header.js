@@ -159,7 +159,7 @@ export default function Header() {
             </button>
          </div>
          <p class="mb-3 text-sm text-blue-800 dark:text-blue-400">
-            Portal Simmons Casa Orner v1.9 - Você está experimentando a versão beta. Erros e bugs estão sendo identificados e corrigidos para proporcionar a melhor experiência para você!
+            Portal OrnerQuartos v1.0 - Você está experimentando a versão beta. Erros e bugs estão sendo identificados e corrigidos para proporcionar a melhor experiência para você!
          </p>
       </div>
    </div>
