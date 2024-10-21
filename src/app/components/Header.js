@@ -36,6 +36,10 @@ export default function Header() {
                     </li>
 
                     <li>
+                        <a href="/videospage" className="flex items-center gap-3 border-[#264b8a] rounded-b-sm hover:border-b-2 hover:focus:font-bold">ASSISTIR</a>
+                    </li>
+
+                    <li>
                         <a href="/#mapsLocate" target="blank" className="flex items-center gap-3 hover:border-[#264b8a] w-full my-10 py-1 px-2 text-black hover:text-[#264b8a] bg-transparent border-2 border-black rounded-full hover:font-semibold  ">CHEGUE ATÉ NÓS</a>                            
                     </li>
 
@@ -71,12 +75,7 @@ export default function Header() {
       </div>
       <div class="flex items-center">
           <div class="flex items-center ms-3">
-            <div>
-              <button type="button" class="flex text-sm rounded-full focus:ring-4 focus:ring-gray-300 dark:focus:ring-gray-600" aria-expanded="false" data-dropdown-toggle="dropdown-user">
-              <svg className="h-5 w-5  text-stone-800" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"/></svg>
-              </button>
-            </div>
+            
             <div class="z-50 hidden my-4 text-base list-none bg-white divide-y divide-gray-100 rounded shadow dark:bg-gray-700 dark:divide-gray-600" id="dropdown-user">
            
               <ul class="py-2" role="none">
@@ -145,6 +144,14 @@ export default function Header() {
                   <path d="M14 2a3.963 3.963 0 0 0-1.4.267 6.439 6.439 0 0 1-1.331 6.638A4 4 0 1 0 14 2Zm1 9h-1.264A6.957 6.957 0 0 1 15 15v2a2.97 2.97 0 0 1-.184 1H19a1 1 0 0 0 1-1v-1a5.006 5.006 0 0 0-5-5ZM6.5 9a4.5 4.5 0 1 0 0-9 4.5 4.5 0 0 0 0 9ZM8 10H5a5.006 5.006 0 0 0-5 5v2a1 1 0 0 0 1 1h11a1 1 0 0 0 1-1v-2a5.006 5.006 0 0 0-5-5Z"/>
                </svg>
                <span class="flex-1 ms-3 whitespace-nowrap">Fale Conosco</span>
+            </a>
+         </li>
+         <li>
+            <a href="/videospage" class="flex items-center p-2 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="flex-shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M6 20.25h12m-7.5-3v3m3-3v3m-10.125-3h17.25c.621 0 1.125-.504 1.125-1.125V4.875c0-.621-.504-1.125-1.125-1.125H3.375c-.621 0-1.125.504-1.125 1.125v11.25c0 .621.504 1.125 1.125 1.125Z" />
+            </svg>
+               <span class="flex-1 ms-3 whitespace-nowrap">Assistir</span>
             </a>
          </li>
       </ul>

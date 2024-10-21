@@ -5,7 +5,7 @@ export function Lista() {
 
 <div class=" ">
     <div class="border-b border-gray-200 justify-center w-full">
-      <nav class=" flex items-ceter gap-5 pt-5 px-2 justify-center  bg-black  m-auto" aria-label="Tabs">
+      <nav class=" flex items-ceter  pt-5 px-2 justify-center  bg-black  m-auto" aria-label="Tabs">
         <a
           href="#colchoes"
           class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-light text-white hover:border-white focus:border-white focus:font-medium hover:font-medium"
@@ -14,10 +14,17 @@ export function Lista() {
         </a>
 
         <a
-          href=""
+          href="#camas"
           class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-light text-white hover:border-white focus:border-white focus:font-medium hover:font-medium"
         >
           Camas
+        </a>
+
+        <a
+          href="#sistdesc"
+          class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-light text-white hover:border-white focus:border-white focus:font-medium hover:font-medium"
+        >
+          Sistemas de Descanso
         </a>
 
         <a
@@ -40,7 +47,9 @@ export function Lista() {
 
   {/* COLCHÕES */}
         <div id="colchoes" className="mx-auto max-w-2xl px-4  sm:px-4 sm:py-10 lg:max-w-7xl lg:px-2">
-              
+        <h3 className="text-3xl px-8 font-bold text-black py-4">
+                    Conheça nossa linha <strong> Colchões. </strong>
+                </h3> 
           <div className="grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 md:grid-cols-3 xl:gap-x-8 m-14">
 
             {/** Stallion Talalay */}
@@ -148,7 +157,19 @@ export function Lista() {
             </a>
             
           </div>
+
         </div>
+                  {/* SISTEMAS DE DESCANSO */}
+                  <div id="sistdesc" className="mx-auto max-w-2xl px-4  sm:px-4 sm:py-10 lg:max-w-7xl lg:px-2">
+        <h3 className="text-3xl px-8 font-bold text-black py-4">
+                    Sistemas de <strong> Descanso. </strong>
+        </h3> 
+          <div className="grid grid-cols-1 gap-x-10 gap-y-10 sm:grid-cols-2 md:grid-cols-3 xl:gap-x-8 m-14">
+          
+          
+          
+          </div>
+          </div>
       </div>
     )
 }
