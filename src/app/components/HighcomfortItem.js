@@ -11,7 +11,7 @@ export function HighcomfortItem() {
               
             {/* colchao foto */}
             
-            <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis    </div>
+            <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis </div>
               <img class="w-full" src="https://kingpedic.com.br/wsite/_upl/produtos/2f6bf312c3b7d4ed3604400adf72c769.jpg" alt="" />             
               
             {/* Modal toggle */}

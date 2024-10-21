@@ -5,7 +5,7 @@ export function Lista() {
 
 <div class=" ">
     <div class="border-b border-gray-200 justify-center w-full">
-      <nav class=" flex items-ceter  pt-5 px-2 justify-center  bg-black  m-auto" aria-label="Tabs">
+      <nav class=" flex items-ceter gap-x-2 pt-5 justify-center  bg-black  m-auto" aria-label="Tabs">
         <a
           href="#colchoes"
           class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-light text-white hover:border-white focus:border-white focus:font-medium hover:font-medium"
@@ -32,14 +32,6 @@ export function Lista() {
           class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-light text-white hover:border-white focus:border-white focus:font-medium hover:font-medium"
         >
           Travesseiros
-        </a>
-
-        <a
-          href=""
-          class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-light text-white   hover:border-white focus:border-white focus:font-medium hover:font-medium"
-          aria-current="page"
-        >
-          Acessórios
         </a>
       </nav>
     </div>
