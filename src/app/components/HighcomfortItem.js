@@ -11,7 +11,7 @@ export function HighcomfortItem() {
               
             {/* colchao foto */}
             
-            <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis </div>
+            <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis    </div>
               <img class="w-full" src="https://kingpedic.com.br/wsite/_upl/produtos/2f6bf312c3b7d4ed3604400adf72c769.jpg" alt="" />             
               
             {/* Modal toggle */}
@@ -39,7 +39,7 @@ export function HighcomfortItem() {
                                 <svg class="w-3 h-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 14">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 6 6m0 0 6 6M7 7l6-6M7 7l-6 6"/>
                                 </svg>
-                                <span class="sr-only">Close modal</span>
+                                <span class="sr-only">Fechar modelo</span>
                             </button>
                         </div>
 
