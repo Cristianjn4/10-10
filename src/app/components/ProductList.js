@@ -36,7 +36,7 @@ export function Lista() {
 
         <a
           href=""
-          class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-light text-white hover:border-white focus:border-white focus:font-medium hover:font-medium"
+          class="shrink-0 hidden lg:block md:block border-b-2 border-transparent px-1 pb-4 text-sm font-light text-white hover:border-white focus:border-white focus:font-medium hover:font-medium"
         >
           Acessórios
         </a>
