@@ -24,7 +24,7 @@ export function Lista() {
           href="#sistdesc"
           class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-light text-white hover:border-white focus:border-white focus:font-medium hover:font-medium"
         >
-          Sistemas de Descanso
+          Comfort+
         </a>
 
         <a
@@ -33,6 +33,14 @@ export function Lista() {
         >
           Travesseiros
         </a>
+
+        <a
+          href=""
+          class="shrink-0 border-b-2 border-transparent px-1 pb-4 text-sm font-light text-white hover:border-white focus:border-white focus:font-medium hover:font-medium"
+        >
+          Acessórios
+        </a>
+
       </nav>
     </div>
   </div>
