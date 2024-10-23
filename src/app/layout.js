@@ -28,6 +28,18 @@ export default function RootLayout({ children }) {
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/tw-elements/css/tw-elements.min.css" />
 
+        {/* Google tag (gtag.js) */}
+          <script async src="https://www.googletagmanager.com/gtag/js?id=AW-11280907043">
+          </script>
+
+          <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments)};
+            gtag('js', new Date());
+
+            gtag('config', 'AW-11280907043');
+          </script>
+
         {/*<!-- Google Tag Manager --> */}
           
         <Script id="google-tag-manager" strategy="afterInteractive">
@@ -45,7 +57,7 @@ export default function RootLayout({ children }) {
 
       </head>
       <body className={montserrat.className} >
-
+      {children}
 
         {/*      <!-- Google Tag Manager (noscript) --> */}
         <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KGW7Z4LV"
@@ -53,7 +65,7 @@ export default function RootLayout({ children }) {
         {/*<!-- End Google Tag Manager (noscript) --> */}
 
 
-        {children}
+        
       <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
 
       </body>

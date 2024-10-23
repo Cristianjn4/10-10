@@ -1,4 +1,5 @@
 "use client"
+"use server"
 
 import { Alerts } from "./components/Alerts";
 import { Carousel } from "./components/Carousel";
@@ -10,7 +11,6 @@ import Header from "./components/Header";
 import { VideoFull } from "./components/Video";
 import { Whatsicon } from "./components/Whatsapp";
 import { Destaque } from "./components/Destaque";
-import { Lojas } from "./components/Lojas";
 import {Duvidas} from "./components/Duvidas";
 import Promotion from "./components/Promotion";
 import Promotion2 from "./components/Promotion2";
