@@ -7,7 +7,7 @@ export function HighcomfortItem() {
             <div class="shrink-0 max-w-md lg:max-w-lg mx-auto">
 
             {/* King Pedic Logo */}
-                <img src="kingpadicblack.png" alt="King Pedic" class="w-40 block md:float-right"/>
+                <img src="https://orbhes.com.br/wsite/br/img/logo.png" alt="King Pedic" class="w-40 block md:float-right"/>
               
             {/* colchao foto */}
             
@@ -15,12 +15,13 @@ export function HighcomfortItem() {
               <img class="w-full" src="https://kingpedic.com.br/wsite/_upl/produtos/2f6bf312c3b7d4ed3604400adf72c769.jpg" alt="" />             
               
             {/* Modal toggle */}
-            <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="block float-right" type="button">
+            <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="gap-2 float-right flex hover:font-medium" type="button">
+                <p className="m-auto">Ver Mais.</p> 
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 3.75H6A2.25 2.25 0 0 0 3.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0 1 20.25 6v1.5m0 9V18A2.25 2.25 0 0 1 18 20.25h-1.5m-9 0H6A2.25 2.25 0 0 1 3.75 18v-1.5M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 </svg>
             </button>
-            
+
             {/* Main modal */}
             <div id="default-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
                 <div class="relative p-4 w-full max-w-4xl max-h-full">
@@ -31,7 +32,7 @@ export function HighcomfortItem() {
                         <div class="flex items-center justify-between p-4 md:p-5 rounded-t ">
                             <div class="">
                                 {/* King Pedic Logo */}
-                <img src="https://kingpedic.com.br/wsite/br/img/logo.png" alt="Restonic" class="w-40 block m-auto"/>
+                <img src="https://orbhes.com.br/wsite/br/img/logo.png" alt="Restonic" class="w-40 block m-auto"/>
 
                             </div> 
                             
@@ -43,9 +44,47 @@ export function HighcomfortItem() {
                             </button>
                         </div>
 
-              {/* colchao foto */}
+              {/* colchao foto 
 
                         <img class="w-full" src="https://kingpedic.com.br/wsite/_upl/produtos/2f6bf312c3b7d4ed3604400adf72c769.jpg" alt="" />
+                        */}
+
+
+                        <div id="default-carousel" class="relative w-full" data-carousel="slide">
+    {/* Carousel wrapper */}
+    <div class="relative h-56 overflow-hidden rounded-lg md:h-96">
+         {/* Item 1 */}
+        <div class="hidden duration-700 ease-in-out" data-carousel-item>
+            <img src="https://kingpedic.com.br/wsite/_upl/produtos/2f6bf312c3b7d4ed3604400adf72c769.jpg" class="absolute block w-auto -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2" alt="..."/>
+        </div>
+       
+    </div>
+    {/* Slider indicators */}
+    <div class="absolute z-30 flex -translate-x-1/2 bottom-5 left-1/2 space-x-3 rtl:space-x-reverse">
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 4" data-carousel-slide-to="3"></button>
+        <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 5" data-carousel-slide-to="4"></button>
+    </div>
+    {/* Slider controls */}
+    <button type="button" class="absolute top-0 start-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-prev>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 1 1 5l4 4"/>
+            </svg>
+            <span class="sr-only">Previous</span>
+        </span>
+    </button>
+    <button type="button" class="absolute top-0 end-0 z-30 flex items-center justify-center h-full px-4 cursor-pointer group focus:outline-none" data-carousel-next>
+        <span class="inline-flex items-center justify-center w-10 h-10 rounded-full bg-white/30 dark:bg-gray-800/30 group-hover:bg-white/50 dark:group-hover:bg-gray-800/60 group-focus:ring-4 group-focus:ring-white dark:group-focus:ring-gray-800/70 group-focus:outline-none">
+            <svg class="w-4 h-4 text-white dark:text-gray-800 rtl:rotate-180" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 6 10">
+                <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 9 4-4-4-4"/>
+            </svg>
+            <span class="sr-only">Next</span>
+        </span>
+    </button>
+</div>
 
                         
                     </div>

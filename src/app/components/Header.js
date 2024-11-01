@@ -40,7 +40,7 @@ export default function Header() {
                     </li>
 
                     <li>
-                        <a href="/#mapsLocate" target="blank" className="flex items-center gap-3 hover:border-[#264b8a] w-full my-10 py-1 px-2 text-black hover:text-[#264b8a] bg-transparent border-2 border-black rounded-full hover:font-semibold  ">CHEGUE ATÉ NÓS</a>                            
+                        <a href="/chegue_ate_nos" target="blank" className="flex items-center gap-3 hover:border-[#264b8a] w-full my-10 py-1 px-2 text-black hover:text-[#264b8a] bg-transparent border-2 border-black rounded-full hover:font-semibold  ">CHEGUE ATÉ NÓS</a>                            
                     </li>
 
                     </ul>

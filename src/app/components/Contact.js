@@ -23,7 +23,7 @@ export function Contact() {
 
                 <buttom className="mt-4 md:mt-8 flex">
                     <a
-                    href="#"
+                    href="mailto:casaorner.digital@gmail.com"
                     className="items-center rounded-full bg-black px-10 py-3 text-sm w-auto flex font-mediunnm text-white transition hover:bg-white hover:text-black border hover:border-black hover:font-medium focus:outline-none">
                     Enviar                                                                                          
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-4 ml-1">

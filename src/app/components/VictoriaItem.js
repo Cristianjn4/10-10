@@ -7,7 +7,7 @@ export function VictoriaItem() {
             <div class="shrink-0 max-w-md lg:max-w-lg mx-auto">
 
             {/* King Pedic Logo */}
-                <img src="kingpadicblack.png" alt="King Pedic" class="w-40 block md:float-right"/>
+                <img src="https://orbhes.com.br/wsite/br/img/logo.png" alt="King Pedic" class="w-40 block md:float-right"/>
               
             {/* colchao foto */}
             
@@ -31,7 +31,7 @@ export function VictoriaItem() {
                         <div class="flex items-center justify-between p-4 md:p-5 rounded-t ">
                             <div class="">
                                 {/* King Pedic Logo */}
-                <img src="https://kingpedic.com.br/wsite/br/img/logo.png" alt="Restonic" class="w-40 block m-auto"/>
+                <img src="https://orbhes.com.br/wsite/br/img/logo.png" alt="Restonic" class="w-40 block m-auto"/>
 
                             </div> 
                             
@@ -45,7 +45,7 @@ export function VictoriaItem() {
 
               {/* colchao foto */}
 
-                        <img class="w-full" src="https://kingpedic.com.br/wsite/_upl/produtos/b860676eec1e281442430676fb12ccb6.jpg" alt="" />
+                        <img class="w-auto m-auto" src="https://kingpedic.com.br/wsite/_upl/produtos/b860676eec1e281442430676fb12ccb6.jpg" alt="" />
 
                         
                     </div>
