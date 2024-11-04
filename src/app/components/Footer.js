@@ -82,7 +82,7 @@ export default function Footer() {
              </div>
              <br></br>
             <div className="bg-[#262223] p-3 sm:flex sm:items-center sm:justify-between">
-                <span className="text-sm text-white sm:text-center ">Copyright© 2024 <a href="https://flowbite.com/" className="hover:underline"> Casa Restonic Jundiaí - </a> All Rights Reserved.
+                <span className="text-sm text-white sm:text-center ">Copyright© 2024 <a href="https://flowbite.com/" className="hover:underline"> Casa Restonic Jundiaí - </a> All Rights Reserved.ㅤ|ㅤLoja de Colchoes Jundiai LTDA 52.735.112/0001-94
                 </span>
                 <div className="flex mt-4 mr-24 sm:justify-center sm:mt-0">
 
