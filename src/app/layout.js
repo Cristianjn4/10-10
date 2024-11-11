@@ -4,7 +4,7 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
-  title: "Restonic Jundiaí",
+  title: "Restonic | Orner Quartos",
   description: "",
   icons: {
     icon: './favicon.ico', // /public path

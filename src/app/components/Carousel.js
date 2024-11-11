@@ -10,14 +10,22 @@ export function Carousel(){
         <div class="relative overflow-hidden sm:h-auto h-96">
             {/* Item 1 */}
             <div className="hidden duration-700 ease-in-out" data-carousel-item="active">
-                <video className="w-full " src="./banner-rotativo-1.mp4" type="video.mp4" autoPlay muted loop></video>            
+                <video className="w-full " src="./banner-rotativo-4.mp4" type="video.mp4" autoPlay muted loop></video>            
             </div>
             {/* Item 2 */}
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
-                <video className="w-full" src="./banner-rotativo-2.mp4" type="video.mp4" autoPlay muted loop></video>            
+                <video className="w-full" src="./banner-rotativo-5.mp4" type="video.mp4" autoPlay muted loop></video>            
             </div>
             {/* Item 3 */}
             <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                <video className="w-full" src="./banner-rotativo-1.mp4" type="video.mp4" autoPlay muted loop></video>            
+            </div>
+             {/* Item 4 */}
+             <div className="hidden duration-700 ease-in-out" data-carousel-item>
+                <video className="w-full" src="./banner-rotativo-2.mp4" type="video.mp4" autoPlay muted loop></video>            
+            </div>
+             {/* Item 5 */}
+             <div className="hidden duration-700 ease-in-out" data-carousel-item>
                 <video className="w-full" src="./banner-rotativo-3.mp4" type="video.mp4" autoPlay muted loop></video>            
             </div>
             
@@ -28,6 +36,8 @@ export function Carousel(){
             <button type="button" class="w-3 h-3 rounded-full" aria-current="true" aria-label="Slide 1" data-carousel-slide-to="0"></button>
             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 2" data-carousel-slide-to="1"></button>
             <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="2"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="3"></button>
+            <button type="button" class="w-3 h-3 rounded-full" aria-current="false" aria-label="Slide 3" data-carousel-slide-to="4"></button>
 
         </div>
         {/* Slider controls */}

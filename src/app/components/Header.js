@@ -19,24 +19,24 @@ export default function Header() {
                     <ul className="flex items-center gap-12 text-black">
 
                     <li>
-                    <a href="/" className="flex items-center gap-3 border-[#264b8a] rounded-b-sm hover:border-b-2 hover:focus:font-bold ">HOME</a>
+                    <a href="/" className="flex items-center gap-3 border-[#87a2c4] rounded-b-sm hover:border-b-2 hover:focus:font-bold ">HOME</a>
                     </li>
 
                     <li>
-                        <a href="/products" className="flex items-center gap-3 border-[#264b8a] rounded-b-sm hover:border-b-2 hover:focus:font-bold">PRODUTOS</a>
+                        <a href="/products" className="flex items-center gap-3 border-[#87a2c4] rounded-b-sm hover:border-b-2 hover:focus:font-bold">PRODUTOS</a>
                         <a/>
                     </li>
 
                     <li>
-                        <a href="/faq" className="flex items-center gap-3 border-[#264b8a] rounded-b-sm hover:border-b-2 hover:focus:font-bold">FAQ</a>
+                        <a href="/faq" className="flex items-center gap-3 border-[#87a2c4] rounded-b-sm hover:border-b-2 hover:focus:font-bold">FAQ</a>
                     </li>
                     
                     <li>
-                        <a href="/faq#contact" className="flex items-center gap-3 border-[#264b8a] rounded-b-sm hover:border-b-2 hover:focus:font-bold">FALE CONOSCO</a>
+                        <a href="/faq#contact" className="flex items-center gap-3 border-[#87a2c4] rounded-b-sm hover:border-b-2 hover:focus:font-bold">FALE CONOSCO</a>
                     </li>
 
                     <li>
-                        <a href="/videospage" className="flex items-center gap-3 border-[#264b8a] rounded-b-sm hover:border-b-2 hover:focus:font-bold">ASSISTIR</a>
+                        <a href="/videospage" className="flex items-center gap-3 border-[#87a2c4] rounded-b-sm hover:border-b-2 hover:focus:font-bold">ASSISTIR</a>
                     </li>
 
                     <li>
