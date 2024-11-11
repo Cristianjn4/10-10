@@ -38,7 +38,7 @@ export default function VideoPage() {
 
 {/* VIDEO-3*/}
 <div class="each my-8 shadow-lg rounded-lg border-gray-800 bg-gray-100 relative">
-    <img class="w-full" src="https://i.ytimg.com/an_webp/z_uLmwp1E8k/mqdefault_6s.webp?du=3000&sqp=CKKuyLkG&rs=AOn4CLCp8biKMNiaZGNNcOtUxTl8B_oeAw" alt="" />
+    <img class="w-full" src="https://i.ytimg.com/vi/ja6R9RaOyuU/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhyIE4oOjAP&rs=AOn4CLCwMs0M3X6VHAAb4o2p7A5taRtWsA" alt="" />
    
     <div class="desc p-4 text-gray-800">
       <a href="https://www.youtube.com/watch?v=ja6R9RaOyuU" target="blank" class="title font-bold block cursor-pointer hover:underline">Colchões Scott Living, os colchões dos Irmão à Obra
