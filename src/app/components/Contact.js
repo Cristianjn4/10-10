@@ -65,7 +65,7 @@ export function Contact() {
 
                             <div className="mt-2 md:mt-4">
                             <a
-                            href="https://api.whatsapp.com/send/?phone=5511932452060&text=Ol%C3%A1%2C+gostaria+de+realizar+a+cota%C3%A7%C3%A3o+de+um+colch%C3%A3o+Restonic.&type=phone_number&app_absent=0" target="blank"
+                            href="https://api.whatsapp.com/send/?phone=5511975262049&text=Ol%C3%A1%2C+gostaria+de+realizar+a+cota%C3%A7%C3%A3o+de+um+colch%C3%A3o+Restonic.&type=phone_number&app_absent=0" target="blank"
                             className="flex rounded-full bg-white px-10 py-3 text-sm font-medium text-black transition hover:bg-white hover:text-black border hover:border-black hover:font-medium focus:outline-none">
                             <svg
                             className="h-5 mr-2"

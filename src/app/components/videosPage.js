@@ -13,7 +13,7 @@ export default function VideoPage() {
 {/* VIDEO-1*/}
 
   <div class="each my-8 shadow-lg rounded-lg border-gray-800 bg-gray-100 relative">
-    <img class="w-full" src="https://i.ytimg.com/an_webp/uLT7yQ54x8M/mqdefault_6s.webp?du=3000&sqp=COTD2bgG&rs=AOn4CLD9Ugxcw51lkSGsYHbKai_JEkj2xg" alt="" />
+    <img class="w-full" src="https://i.ytimg.com/an_webp/uLT7yQ54x8M/mqdefault_6s.webp?du=3000&sqp=CLvWyLkG&rs=AOn4CLDXyXJx0DF3slBr5gSG-BdfwWB3Vg" alt="" />
 
     <div class="desc p-4 text-gray-800">
       <a href="https://www.youtube.com/watch?v=uLT7yQ54x8M&t=10s" target="blank" class="title font-bold block cursor-pointer hover:underline">Dreams</a>
@@ -25,7 +25,7 @@ export default function VideoPage() {
 
 {/* VIDEO-2*/}
 <div class="each my-8 shadow-lg rounded-lg border-gray-800 bg-gray-100 relative">
-    <img class="w-full" src="https://i.ytimg.com/an_webp/z_uLmwp1E8k/mqdefault_6s.webp?du=3000&sqp=CI-d2bgG&rs=AOn4CLAZLGv_g7TNpMxgfW3mcixPE43DUw" alt="" />
+    <img class="w-full" src="https://i.ytimg.com/an_webp/z_uLmwp1E8k/mqdefault_6s.webp?du=3000&sqp=CKKuyLkG&rs=AOn4CLCp8biKMNiaZGNNcOtUxTl8B_oeAw" alt="" />
    
     <div class="desc p-4 text-gray-800">
       <a href="https://www.youtube.com/watch?v=z_uLmwp1E8k&t=17s" target="blank" class="title font-bold block cursor-pointer hover:underline">STALLION COLCHÕES      </a>
@@ -38,7 +38,7 @@ export default function VideoPage() {
 
 {/* VIDEO-3*/}
 <div class="each my-8 shadow-lg rounded-lg border-gray-800 bg-gray-100 relative">
-    <img class="w-full" src="https://i.ytimg.com/vi/ja6R9RaOyuU/hqdefault.jpg?sqp=-oaymwE2CNACELwBSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB1AaAAuADigIMCAAQARhyIE4oOjAP&rs=AOn4CLCwMs0M3X6VHAAb4o2p7A5taRtWsA" alt="" />
+    <img class="w-full" src="https://i.ytimg.com/an_webp/z_uLmwp1E8k/mqdefault_6s.webp?du=3000&sqp=CKKuyLkG&rs=AOn4CLCp8biKMNiaZGNNcOtUxTl8B_oeAw" alt="" />
    
     <div class="desc p-4 text-gray-800">
       <a href="https://www.youtube.com/watch?v=ja6R9RaOyuU" target="blank" class="title font-bold block cursor-pointer hover:underline">Colchões Scott Living, os colchões dos Irmão à Obra
@@ -78,7 +78,7 @@ export default function VideoPage() {
 {/* VIDEO-1*/}
 
   <div class="each my-8 shadow-lg rounded-lg border-gray-800 bg-gray-100 relative">
-    <img class="w-full" src="https://i.ytimg.com/an_webp/TOb44UwHLdk/mqdefault_6s.webp?du=3000&sqp=CNGt2bgG&rs=AOn4CLDVA0YmY51tZ_gqjpieZy8AVA3VNw" alt="" />
+    <img class="w-full" src="https://i.ytimg.com/an_webp/TOb44UwHLdk/mqdefault_6s.webp?du=3000&sqp=CPe4yLkG&rs=AOn4CLCEocqszSRiD1JEH0wBSsSO_aI-Zw" alt="" />
 
     <div class="desc p-4 text-gray-800">
       <a href="https://www.youtube.com/watch?v=TOb44UwHLdk" target="blank" class="title font-bold block cursor-pointer hover:underline">Transforme o conforto térmico com NanoCooling!</a>
@@ -90,7 +90,7 @@ export default function VideoPage() {
 
 {/* VIDEO-2*/}
 <div class="each my-8 shadow-lg rounded-lg border-gray-800 bg-gray-100 relative">
-    <img class="w-full" src="https://i.ytimg.com/an_webp/o9-h8NSsb00/mqdefault_6s.webp?du=3000&sqp=CNWz2bgG&rs=AOn4CLAGMBWdMk4a-Syg9wv0RUY4dIEf0A" alt="" />
+    <img class="w-full" src="https://i.ytimg.com/an_webp/o9-h8NSsb00/mqdefault_6s.webp?du=3000&sqp=CPXRyLkG&rs=AOn4CLCkcVWb2BfSSUl0T6vqujCiKJOD4w" alt="" />
    
     <div class="desc p-4 text-gray-800">
       <a href="https://www.youtube.com/watch?v=o9-h8NSsb00" target="blank" class="title font-bold block cursor-pointer hover:underline">Descubra o poder do cobre com a tecnologia CopperCooling!
@@ -104,7 +104,7 @@ export default function VideoPage() {
 
 {/* VIDEO-3*/}
 <div class="each my-8 shadow-lg rounded-lg border-gray-800 bg-gray-100 relative">
-    <img class="w-full" src="https://i.ytimg.com/an_webp/BOTHXdM08IQ/mqdefault_6s.webp?du=3000&sqp=CNDE2bgG&rs=AOn4CLD-4eixbASFM05pK4qWf4ap_cXwgw" alt="" />
+    <img class="w-full" src="https://i.ytimg.com/an_webp/BOTHXdM08IQ/mqdefault_6s.webp?du=3000&sqp=CJjmyLkG&rs=AOn4CLDIUusNU46jgVrQF-LzBg5ksYFtRQ" alt="" />
    
     <div class="desc p-4 text-gray-800">
       <a href="https://www.youtube.com/watch?v=BOTHXdM08IQ" target="blank" class="title font-bold block cursor-pointer hover:underline">Tecnologia VIOLET para o seu melhor sono!
@@ -119,7 +119,7 @@ export default function VideoPage() {
 
 {/* VIDEO-4*/}
 <div class="each my-8 shadow-lg rounded-lg border-gray-800 bg-gray-100 relative">
-    <img class="w-full" src="https://i.ytimg.com/an_webp/Yf5P1VnuJes/mqdefault_6s.webp?du=3000&sqp=CNax2bgG&rs=AOn4CLD_JScWEUnh-nfYxYpDH2zWYFyS-g" alt="" />
+    <img class="w-full" src="https://i.ytimg.com/an_webp/Yf5P1VnuJes/mqdefault_6s.webp?du=3000&sqp=CLzxyLkG&rs=AOn4CLAAUgXkgWADnj5JrC38sDC2DsrEuQ" alt="" />
    
     <div class="desc p-4 text-gray-800">
       <a href="https://www.youtube.com/watch?v=Yf5P1VnuJes" target="blank" class="title font-bold block cursor-pointer hover:underline">CCORE uma tecnologia Japonesa presente em nossos colchões.
