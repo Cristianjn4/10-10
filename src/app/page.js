@@ -27,6 +27,7 @@ export default function Home() {
       <CarouselMob/>
       <Categorias/>
       <Promotion/> 
+      <Lojas/>
       <Destaque/>
       <Promotion3/>
       <Depoimentos/>

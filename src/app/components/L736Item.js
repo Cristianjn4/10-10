@@ -1,20 +1,20 @@
-export function ImattressItem() {
+export function L736Item() {
     return(
-        
+
         <section class=" py-8 bg-white md:py-16 antialiased">
         <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0 pt-28">
           <div class="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
             <div class="shrink-0 max-w-md lg:max-w-lg mx-auto">
 
-            {/** Restonic Logo */}
+            {/* Restonic Logo */}
                 <img src="https://restonic.com.br/wp-content/uploads/2023/06/logo-restonic-min.png" alt="Restonic" class="w-40 block md:float-right"/>
               
-            {/** colchao foto */}
+            {/* colchao foto */}
             
             <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis </div>
-              <img class="w-full" src="https://www.colchaostallion.com.br/wp-content/uploads/2021/12/91A99CF9-72B6-4CF3-ACA7-756C40519D87.png" alt="" />             
+              <img class="w-full" src="https://restonic.com.br/wp-content/uploads/2023/10/L736-min.jpg" alt="" />             
               
-            {/** Modal toggle */}
+            {/* Modal toggle */}
             <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="gap-2 float-right flex hover:font-medium" type="button">
             <p className="m-auto">Ver Mais.</p> 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
@@ -22,16 +22,16 @@ export function ImattressItem() {
                 </svg>
             </button>
             
-            {/** Main modal */}
+            {/* Main modal */}
             <div id="default-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
                 <div class="relative p-4 w-full max-w-4xl max-h-full">
-                    {/** Modal content */}
+                    {/* Modal content */}
                     <div class="relative bg-white rounded-lg shadow">
             
-                        {/** Modal header */}
+                        {/* Modal header */}
                         <div class="flex items-center justify-between p-4 md:p-5 rounded-t ">
                             <div class="">
-                                {/** Restonic Logo */}
+                                {/* Restonic Logo */}
                 <img src="https://restonic.com.br/wp-content/uploads/2023/06/logo-restonic-min.png" alt="Restonic" class="w-40 block m-auto"/>
 
                             </div> 
@@ -44,16 +44,18 @@ export function ImattressItem() {
                             </button>
                         </div>
 
-              {/** colchao foto */}
+              {/* colchao foto */}
 
-                        <img class="w-full" src="https://www.colchaostallion.com.br/wp-content/uploads/2021/12/91A99CF9-72B6-4CF3-ACA7-756C40519D87.png" alt="" />
+                        <img class="w-full" src="http://restonic.com.br/sistema/wsite/_upl/produtos/4b851bd6359bbf0bd9eb9949b447fe0a.jpg" alt="" />
 
                         
                     </div>
                 </div>
             </div>
 
-            {/** Main modal video */}
+<div>
+
+                {/* Main modal video */}
 
                
 <button data-modal-target="popup-modal" data-modal-toggle="popup-modal" class="block float-right pr-4 " type="button">
@@ -67,12 +69,14 @@ export function ImattressItem() {
         <div class="relative w-full max-w-md max-h-full">
             <div class="relative rounded-lg shadow w-auto">
 
-            <iframe width="520" height="315" src="https://www.youtube.com/embed/BnpREzUbMOY" title="TENCEL TECHNOLOGY ( em inglês )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
+                <iframe width="520" height="315" src="https://www.youtube.com/embed/hsctjrewQDU" title="Orientações para o Consumidor abrir o seu colchão Orbhes Rolled (ENROLADO )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
         </div>
     </div>
     
 </div>
 
+ 
 
             <br/>
 
@@ -82,20 +86,21 @@ export function ImattressItem() {
             <div class="mt-6 sm:mt-8 lg:mt-0">
 
               <h1 className="text-3xl font-extrabold text-gray-900  ">
-                Colchão IMattress
+                Colchão L736 Drew & Jonathan
+ 
               </h1>
               <div class="mt-4 sm:items-center sm:gap-4 sm:flex">
                 <p
                   class="text-2xl font-semibold text-gray-900 sm:text-3xl "
                 >
-                  Super Macio
+                  Super-Macio
                 </p>
 
               </div>
     
               <br/>
               
-              {/** colchao foto */}
+              {/* colchao foto */}
 
               <div class="mt-6 sm:gap-4 sm:items-center sm:flex sm:mt-8">
                 <a
@@ -117,7 +122,7 @@ export function ImattressItem() {
                 </a>
     
                 <a
-                  href="https://restonic.com.br/sistema/colchao-detalhes_pdf?cod=94566583898"
+                  href="https://restonic.com.br/sistema/colchao-detalhes_pdf?cod=94549583607"
                   target="blank"
                   title=""
                   class="flex items-center justify-center py-2.5 px-5 text-sm font-medium text-white focus:outline-none bg-black rounded-lg border border-gray-200 hover:bg-gray-100 hover:border-black hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-100 "
@@ -132,21 +137,21 @@ export function ImattressItem() {
               <br/>
 
               <div className=" mt-6 gap-2 text-sm text-black">
-                <p class="font-semibold">Altura: 38cm</p>
+                <p class="font-semibold">Altura: 36cm</p>
                 <p className="font-light text-black">
                   Solteiro (88x188) - Casal (138x188) - Queen (158x198) - King (198x203)
                 </p>
                 <br/>
 
-{/** ENTREGA */}
+{/* ENTREGA */}
  
 <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider" class="text-black bg-white hover:bg-black hover:text-white border-2 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center " type="button">Medidas <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
     </svg>
     </button>
     
-    {/** Dropdown menu */}
-    <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-lg rounded-lg border-2 border-stone-200  w-64 h-44 overflow-y-auto">
+    {/* Dropdown menu */}
+    <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-lg border-2 border-stone-200  w-64 h-44 overflow-y-auto">
         <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownDividerButton">
         <li>
             <a href="#" class="block px-4 py-2 hover:bg-gray-100">Jundiaí</a>
@@ -221,15 +226,15 @@ export function ImattressItem() {
     </div>
                 
              
-              {/** MEDIDAS */}
+              {/* MEDIDAS */}
  
             <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider" class="text-black bg-white hover:bg-black hover:text-white border-2 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center " type="button">Consulte a disponibilidade da entrega. <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                 </svg>
                 </button>
                 
-                {/** Dropdown menu */}
-                <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-lg rounded-lg border-2 border-stone-200  w-44">
+                {/* Dropdown menu */}
+                <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 shadow-lg rounded-lg border-2 border-stone-200  w-44">
                     <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownDividerButton">
                     <li>
                         <a href="#" class="block px-4 py-2 hover:bg-gray-100">Dashboard</a>
@@ -255,29 +260,32 @@ export function ImattressItem() {
     
     <p class="font-bold" dir="ltr">SOBRE O PRODUTO:</p>
     
-        Conheça o verdadeiro conforto Americano com o colchão iMattress, um verdadeiro repouso absoluto ao se deitar.
+    <p>O colchão L736 possui a exclusiva espuma Ultracel® que possui suas células abertas que aumentam a passagem de ar no colchão. Aliada com o Látex, a passagem de ar do colchão aumenta excepcionalmente, garantindo maior desempenho em evitar a proliferação de ácaros e bactérias e na não retenção de umidade.
+    Além disso, somado com uma camada perfeita de espuma macia e as molas ensacadas High Core de 20cm de altura, o L736 traz o perfeito conforto SuperPlush, que garante maciez e suporte máximo!
 
-Este colchão recebe uma espessa camada de Ultracel® com Gel que garante maior frescor na dissipação do calor gerado pelo corpo. Recebe também uma camada extra de Látex que acompanha perfeitamente o alinhamento do corpo. E para dar aquele toque perfeito ao produto, este iMattress recebe o sistema de molejo High Core para garantir um alinhamento excepcional do corpo e suporte individualizado.
 
-        <br/><br/>
+
+        <br/>
+
+        <br/>
+
+    </p>
 
 
     <p class="font-bold" dir="ltr">COPOSIÇÃO:</p>
  
-        Espuma Ultracel®
-        <br/>
-        Látex Dunlop em mantas
-        <br/>
-        Malha com probiótico antiácaro
-        <br/>
-        Malha em Microtencel
-        <br/>
-        Rolled (Enrolado)
+        
+Espuma Ultracel®
+<br/>
+Látex Pulse em manta
+<br/>
+Molejo ensacado high core
+        
         
         <br/><br/>
 
 
-        <p class="font-bold" dir="ltr">MPORTANTE:</p>
+    <p class="font-bold" dir="ltr">MPORTANTE:</p>
     
     <p dir="ltr">🚚 Para garantir que sua encomenda seja entregue com rapidez e efici&ecirc;ncia, &eacute; importante verificar se h&aacute; disponibilidade de entrega em sua regi&atilde;o.</p>
     
@@ -289,6 +297,7 @@ Este colchão recebe uma espessa camada de Ultracel® com Gel que garante maior 
     
             </div>
           </div>
+        </div>
       </section>
 
 

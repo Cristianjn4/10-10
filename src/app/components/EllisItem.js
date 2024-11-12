@@ -1,4 +1,4 @@
-export function TalalayItem() {
+export function EllisItem() {
     return(
 
         <section class=" py-8 bg-white md:py-16 antialiased">
@@ -6,11 +6,13 @@ export function TalalayItem() {
           <div class="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
             <div class="shrink-0 max-w-md lg:max-w-lg mx-auto">
 
-            {/* Stallion Logo */}
-                <img src="https://www.colchaostallion.com.br/wp-content/themes/stallion/assets/img/logo-stallion.png" alt="Stallion" class="w-40 block md:float-right"/>
-
+            {/* Restonic Logo */}
+                <img src="https://restonic.com.br/wp-content/uploads/2023/06/logo-restonic-min.png" alt="Restonic" class="w-40 block md:float-right"/>
+              
+            {/* colchao foto */}
+            
             <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis </div>
-              <img class="w-full" src="https://www.colchaostallion.com.br/wp-content/uploads/2023/10/STALLION-TALALAY-NEW-min.png" alt="" />             
+              <img class="w-full" src="https://restonic.com.br/wp-content/uploads/2023/10/Ellis-Medium-min.jpg" alt="" />             
               
             {/* Modal toggle */}
             <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="gap-2 float-right flex hover:font-medium" type="button">
@@ -19,7 +21,7 @@ export function TalalayItem() {
                     <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 3.75H6A2.25 2.25 0 0 0 3.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0 1 20.25 6v1.5m0 9V18A2.25 2.25 0 0 1 18 20.25h-1.5m-9 0H6A2.25 2.25 0 0 1 3.75 18v-1.5M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 </svg>
             </button>
-
+            
             {/* Main modal */}
             <div id="default-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
                 <div class="relative p-4 w-full max-w-4xl max-h-full">
@@ -28,9 +30,9 @@ export function TalalayItem() {
             
                         {/* Modal header */}
                         <div class="flex items-center justify-between p-4 md:p-5 rounded-t ">
-                            <div class=""> 
-                                {/* Stallion Logo */}
-                <img src="https://www.colchaostallion.com.br/wp-content/themes/stallion/assets/img/logo-stallion.png" alt="Stallion" class="w-40 block m-auto"/>
+                            <div class="">
+                                {/* Restonic Logo */}
+                <img src="https://restonic.com.br/wp-content/uploads/2023/06/logo-restonic-min.png" alt="Restonic" class="w-40 block m-auto"/>
 
                             </div> 
                             
@@ -42,12 +44,39 @@ export function TalalayItem() {
                             </button>
                         </div>
 
-                        <img class="w-full" src="https://www.colchaostallion.com.br/wp-content/uploads/2023/10/STALLION-TALALAY-NEW-min.png" alt="" />
+              {/* colchao foto */}
+
+                        <img class="w-full" src="http://restonic.com.br/sistema/wsite/_upl/produtos/4b851bd6359bbf0bd9eb9949b447fe0a.jpg" alt="" />
 
                         
                     </div>
                 </div>
             </div>
+
+<div>
+
+                {/* Main modal video */}
+
+               
+<button data-modal-target="popup-modal" data-modal-toggle="popup-modal" class="block float-right pr-4 " type="button">
+    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
+      </svg>
+      
+</button>
+    
+    <div id="popup-modal" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
+        <div class="relative w-full max-w-md max-h-full">
+            <div class="relative rounded-lg shadow w-auto">
+
+                <iframe width="520" height="315" src="https://www.youtube.com/embed/hsctjrewQDU" title="Orientações para o Consumidor abrir o seu colchão Orbhes Rolled (ENROLADO )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    
+</div>
+
+ 
 
             <br/>
 
@@ -57,22 +86,25 @@ export function TalalayItem() {
             <div class="mt-6 sm:mt-8 lg:mt-0">
 
               <h1 className="text-3xl font-extrabold text-gray-900  ">
-                Colchão Talalay
+                Colchão Ellis
+ 
               </h1>
               <div class="mt-4 sm:items-center sm:gap-4 sm:flex">
                 <p
                   class="text-2xl font-semibold text-gray-900 sm:text-3xl "
                 >
-                  Macio
+                  Macio ou Intermediário
                 </p>
 
               </div>
     
               <br/>
               
+              {/* colchao foto */}
+
               <div class="mt-6 sm:gap-4 sm:items-center sm:flex sm:mt-8">
                 <a
-                  href="https://api.whatsapp.com/send?phone=5511995379301&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20colch%C3%A3o%20*Stallion%Talalay.*"
+                  href=""
                   target="blank"
                   title=""
                   class="flex items-center justify-center py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:border-green-500 hover:text-green-500 focus:z-10 focus:ring-4 focus:ring-gray-100"
@@ -90,14 +122,24 @@ export function TalalayItem() {
                 </a>
     
                 <a
-                  href=""
+                  href="https://restonic.com.br/sistema/colchao-detalhes_pdf?cod=94249583436"
                   target="blank"
                   title=""
                   class="flex items-center justify-center py-2.5 px-5 text-sm font-medium text-white focus:outline-none bg-black rounded-lg border border-gray-200 hover:bg-gray-100 hover:border-black hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-100 "
                   role="button"
                 >
     
-                  Ver ficha técnica
+                  Ficha Técnica (Medium)
+                </a>
+                <a
+                  href="https://restonic.com.br/sistema/colchao-detalhes_pdf?cod=94249583536"
+                  target="blank"
+                  title=""
+                  class="flex items-center justify-center py-2.5 px-5 text-sm font-medium text-white focus:outline-none bg-black rounded-lg border border-gray-200 hover:bg-gray-100 hover:border-black hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-100 "
+                  role="button"
+                >
+    
+                  Ficha Técnica (Plush)
                 </a>
     
               </div>
@@ -105,13 +147,13 @@ export function TalalayItem() {
               <br/>
 
               <div className=" mt-6 gap-2 text-sm text-black">
-                <p class="font-semibold">Altura: 39cm</p>
+                <p class="font-semibold">Altura: 34cm</p>
                 <p className="font-light text-black">
                   Solteiro (88x188) - Casal (138x188) - Queen (158x198) - King (198x203)
                 </p>
                 <br/>
 
-{/* Entrega */}
+{/* ENTREGA */}
  
 <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider" class="text-black bg-white hover:bg-black hover:text-white border-2 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center " type="button">Medidas <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
@@ -119,7 +161,7 @@ export function TalalayItem() {
     </button>
     
     {/* Dropdown menu */}
-    <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-lg rounded-lg border-2 border-stone-200  w-64 h-44 overflow-y-auto">
+    <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-lg border-2 border-stone-200  w-64 h-44 overflow-y-auto">
         <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownDividerButton">
         <li>
             <a href="#" class="block px-4 py-2 hover:bg-gray-100">Jundiaí</a>
@@ -202,7 +244,7 @@ export function TalalayItem() {
                 </button>
                 
                 {/* Dropdown menu */}
-                <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-lg rounded-lg border-2 border-stone-200  w-44">
+                <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 shadow-lg rounded-lg border-2 border-stone-200  w-44">
                     <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownDividerButton">
                     <li>
                         <a href="#" class="block px-4 py-2 hover:bg-gray-100">Dashboard</a>
@@ -228,61 +270,39 @@ export function TalalayItem() {
     
     <p class="font-bold" dir="ltr">SOBRE O PRODUTO:</p>
     
-    <p>Stallion Talalay é um colchão que permite três diferentes confortos, em um só núcleo (core).
-        Quando Ultraplush, a camada mais externa é Látex Pulse.
-        Quando Superplush, a camada mais externa é D36 Macia.
-        E se pode ter um lado mais macio (Látex) e outro mais firme (D36 macio).
+    <p>Drew e Jonathan Scott entendem que uma noite de sono saudável, confortável e rejuvenescedora dá origem a manhãs melhores. Resgate o seu sono melhor com um colchão híbrido Ellis Level I. Com AlumiLast®, além do sistema de molejo Q5 Twin® Support, o colchão Ellis oferece um sistema de sono completo a preço acessível. Você terá um sono de suporte, noite após noite, com duas opções:
+
+
+
         <br/>
 
         <br/>
 
     </p>
-    <p class="font-bold" dir="ltr">TECIDO:</p>
-        (CAPA REMOVÍVEL):
-        <br/>
-        LADO VERÃO:
-        <br/>
-        Malha tecido Glacier Gramatura 500g/m²
-        <br/>
-        70% Poliéster, 27% Polietileno de Alta Densidade (frio), 3% Elastano
-        <br/>
-        LADO INVERNO:
-        <br/>
-        Malha tecido Gramatura 430g/m²
-        <br/>
-        97% Poliéster, 3% Elastano
-        <br/>
-        <br/>
+
 
     <p class="font-bold" dir="ltr">COPOSIÇÃO:</p>
-    COVER:
-        Látex 1cm
-        <br/>
-        Crina de Cavalo
-        <br/>
-        Látex Pulse 3cm (quando Ultraplush)
-        <br/>
-        Espuma D36 2,5cm (quando Superplush)
-        <br/>
-        Lã de Ovelha SuperSoft
-        <br/>
-        Látex 1cm
-        <br/>
-        CORE:
-        <br/>
-        Espuma Ultracel® 2,5cm
-        <br/>
-        Crina de Camelo
-        <br/>
-        Látex Talalay 5cm
-        <br/>
-        <br/>
-    <p class="font-bold" dir="ltr">MOLEJO:</p>
-    <p>
-        <p>
-            Ensacada Q5 Zoned 18cm.
-        </p>
+ 
+    Ellis Plush Eurotop – 35cm de altura
     <br/>
+    Ellis Medium Pillow In – 34cm de altura
+    <br/>
+
+    Espuma Ultracel®
+    <br/>
+    Látex Grafite
+    <br/>
+    Tecido Glacier
+    <br/>
+    Micromolejo ensacado
+    <br/>
+    Molejo ensacado Q5 Twin Support
+    <br/>
+    Rolled (enrolado)
+        
+        
+        <br/><br/>
+
 
     <p class="font-bold" dir="ltr">MPORTANTE:</p>
     
@@ -294,11 +314,11 @@ export function TalalayItem() {
     
     <p dir="ltr">&nbsp;</p>
     
-              </p>
             </div>
           </div>
         </div>
       </section>
+
 
     )
 }

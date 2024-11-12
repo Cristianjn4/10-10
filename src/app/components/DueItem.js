@@ -1,38 +1,36 @@
-export function ImattressItem() {
+export function DueItem() {
     return(
-        
+
         <section class=" py-8 bg-white md:py-16 antialiased">
         <div class="max-w-screen-xl px-4 mx-auto 2xl:px-0 pt-28">
           <div class="lg:grid lg:grid-cols-2 lg:gap-8 xl:gap-16">
             <div class="shrink-0 max-w-md lg:max-w-lg mx-auto">
 
-            {/** Restonic Logo */}
-                <img src="https://restonic.com.br/wp-content/uploads/2023/06/logo-restonic-min.png" alt="Restonic" class="w-40 block md:float-right"/>
-              
-            {/** colchao foto */}
-            
+            {/* Stallion Logo */}
+                <img src="https://www.colchaostallion.com.br/wp-content/themes/stallion/assets/img/logo-stallion.png" alt="Stallion" class="w-40 block md:float-right"/>
+
             <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis </div>
-              <img class="w-full" src="https://www.colchaostallion.com.br/wp-content/uploads/2021/12/91A99CF9-72B6-4CF3-ACA7-756C40519D87.png" alt="" />             
+              <img class="w-full" src="https://www.colchaostallion.com.br/wp-content/uploads/2021/12/F7522018-D0BE-441F-90F7-2D89FEE16A39.png" alt="" />             
               
-            {/** Modal toggle */}
+            {/* Modal toggle */}
             <button data-modal-target="default-modal" data-modal-toggle="default-modal" class="gap-2 float-right flex hover:font-medium" type="button">
             <p className="m-auto">Ver Mais.</p> 
             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M7.5 3.75H6A2.25 2.25 0 0 0 3.75 6v1.5M16.5 3.75H18A2.25 2.25 0 0 1 20.25 6v1.5m0 9V18A2.25 2.25 0 0 1 18 20.25h-1.5m-9 0H6A2.25 2.25 0 0 1 3.75 18v-1.5M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
                 </svg>
             </button>
-            
-            {/** Main modal */}
+
+            {/* Main modal */}
             <div id="default-modal" tabindex="-1" aria-hidden="true" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
                 <div class="relative p-4 w-full max-w-4xl max-h-full">
-                    {/** Modal content */}
+                    {/* Modal content */}
                     <div class="relative bg-white rounded-lg shadow">
             
-                        {/** Modal header */}
+                        {/* Modal header */}
                         <div class="flex items-center justify-between p-4 md:p-5 rounded-t ">
-                            <div class="">
-                                {/** Restonic Logo */}
-                <img src="https://restonic.com.br/wp-content/uploads/2023/06/logo-restonic-min.png" alt="Restonic" class="w-40 block m-auto"/>
+                            <div class=""> 
+                                {/* Stallion Logo */}
+                <img src="https://www.colchaostallion.com.br/wp-content/themes/stallion/assets/img/logo-stallion.png" alt="Stallion" class="w-40 block m-auto"/>
 
                             </div> 
                             
@@ -44,35 +42,12 @@ export function ImattressItem() {
                             </button>
                         </div>
 
-              {/** colchao foto */}
-
-                        <img class="w-full" src="https://www.colchaostallion.com.br/wp-content/uploads/2021/12/91A99CF9-72B6-4CF3-ACA7-756C40519D87.png" alt="" />
+                        <img class="w-full" src="https://www.colchaostallion.com.br/wp-content/uploads/2023/10/STALLION-TALALAY-NEW-min.png" alt="" />
 
                         
                     </div>
                 </div>
             </div>
-
-            {/** Main modal video */}
-
-               
-<button data-modal-target="popup-modal" data-modal-toggle="popup-modal" class="block float-right pr-4 " type="button">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-8">
-        <path stroke-linecap="round" stroke-linejoin="round" d="M5.25 5.653c0-.856.917-1.398 1.667-.986l11.54 6.347a1.125 1.125 0 0 1 0 1.972l-11.54 6.347a1.125 1.125 0 0 1-1.667-.986V5.653Z" />
-      </svg>
-      
-</button>
-    
-    <div id="popup-modal" tabindex="-1" class="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
-        <div class="relative w-full max-w-md max-h-full">
-            <div class="relative rounded-lg shadow w-auto">
-
-            <iframe width="520" height="315" src="https://www.youtube.com/embed/BnpREzUbMOY" title="TENCEL TECHNOLOGY ( em inglês )" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>            </div>
-        </div>
-    </div>
-    
-</div>
-
 
             <br/>
 
@@ -82,24 +57,22 @@ export function ImattressItem() {
             <div class="mt-6 sm:mt-8 lg:mt-0">
 
               <h1 className="text-3xl font-extrabold text-gray-900  ">
-                Colchão IMattress
+                Colchão Due Alpaca
               </h1>
               <div class="mt-4 sm:items-center sm:gap-4 sm:flex">
                 <p
                   class="text-2xl font-semibold text-gray-900 sm:text-3xl "
                 >
-                  Super Macio
+                  Macio
                 </p>
 
               </div>
     
               <br/>
               
-              {/** colchao foto */}
-
               <div class="mt-6 sm:gap-4 sm:items-center sm:flex sm:mt-8">
                 <a
-                  href=""
+                  href="https://api.whatsapp.com/send?phone=5511995379301&text=Ol%C3%A1,%20gostaria%20de%20saber%20mais%20sobre%20o%20colch%C3%A3o%20*Stallion%Talalay.*"
                   target="blank"
                   title=""
                   class="flex items-center justify-center py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:border-green-500 hover:text-green-500 focus:z-10 focus:ring-4 focus:ring-gray-100"
@@ -117,14 +90,14 @@ export function ImattressItem() {
                 </a>
     
                 <a
-                  href="https://restonic.com.br/sistema/colchao-detalhes_pdf?cod=94566583898"
+                  href=""
                   target="blank"
                   title=""
                   class="flex items-center justify-center py-2.5 px-5 text-sm font-medium text-white focus:outline-none bg-black rounded-lg border border-gray-200 hover:bg-gray-100 hover:border-black hover:text-black focus:z-10 focus:ring-4 focus:ring-gray-100 "
                   role="button"
                 >
     
-                  Ficha Técnica
+                  Ver ficha técnica
                 </a>
     
               </div>
@@ -132,20 +105,20 @@ export function ImattressItem() {
               <br/>
 
               <div className=" mt-6 gap-2 text-sm text-black">
-                <p class="font-semibold">Altura: 38cm</p>
+                <p class="font-semibold">Altura: 40cm</p>
                 <p className="font-light text-black">
                   Solteiro (88x188) - Casal (138x188) - Queen (158x198) - King (198x203)
                 </p>
                 <br/>
 
-{/** ENTREGA */}
+{/* Entrega */}
  
 <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider" class="text-black bg-white hover:bg-black hover:text-white border-2 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center " type="button">Medidas <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
     </svg>
     </button>
     
-    {/** Dropdown menu */}
+    {/* Dropdown menu */}
     <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-lg rounded-lg border-2 border-stone-200  w-64 h-44 overflow-y-auto">
         <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownDividerButton">
         <li>
@@ -221,14 +194,14 @@ export function ImattressItem() {
     </div>
                 
              
-              {/** MEDIDAS */}
+              {/* MEDIDAS */}
  
             <button id="dropdownDividerButton" data-dropdown-toggle="dropdownDivider" class="text-black bg-white hover:bg-black hover:text-white border-2 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center " type="button">Consulte a disponibilidade da entrega. <svg class="w-2.5 h-2.5 ms-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                 <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4"/>
                 </svg>
                 </button>
                 
-                {/** Dropdown menu */}
+                {/* Dropdown menu */}
                 <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-lg rounded-lg border-2 border-stone-200  w-44">
                     <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownDividerButton">
                     <li>
@@ -255,29 +228,40 @@ export function ImattressItem() {
     
     <p class="font-bold" dir="ltr">SOBRE O PRODUTO:</p>
     
-        Conheça o verdadeiro conforto Americano com o colchão iMattress, um verdadeiro repouso absoluto ao se deitar.
+    <p>Colchão com Duplo Molejo.
 
-Este colchão recebe uma espessa camada de Ultracel® com Gel que garante maior frescor na dissipação do calor gerado pelo corpo. Recebe também uma camada extra de Látex que acompanha perfeitamente o alinhamento do corpo. E para dar aquele toque perfeito ao produto, este iMattress recebe o sistema de molejo High Core para garantir um alinhamento excepcional do corpo e suporte individualizado.
+Uma perfeita individualidade e maciez, com o frescor das fibras naturais.
 
-        <br/><br/>
+A crina de Alpaca proporciona um maior frescor, com as sempre presentes crinas de cavalo e ovelha.
 
+Produto certificado de acordo com a portaria do Inmetro:75/2021
+        <br/>
+
+        <br/>
+
+    </p>
+    <p class="font-bold" dir="ltr">TECIDO:</p>
+    MALHA 430 g/m2 97% POLIESTER 3% ELASTANO<br/>
+Proteção Active Biotic - Pro Bioticos<br/>
+        <br/>
 
     <p class="font-bold" dir="ltr">COPOSIÇÃO:</p>
- 
-        Espuma Ultracel®
-        <br/>
-        Látex Dunlop em mantas
-        <br/>
-        Malha com probiótico antiácaro
-        <br/>
-        Malha em Microtencel
-        <br/>
-        Rolled (Enrolado)
-        
-        <br/><br/>
+    Látex Pulse 3 cm<br/>
+    Lã de Alpaca<br/>
+    Crina de Cavalo<br/>
+    Lã de Ovelha<br/>
+    Látex Pulse 3 cm<br/>
 
+        <br/>
+    <p class="font-bold" dir="ltr">MOLEJO:</p>
+    <p>
+        <p>
+        Ensacado Marshal 5,5 cm<br/>
+Ensacado High Core 20cm<br/>
+        </p>
+    <br/>
 
-        <p class="font-bold" dir="ltr">MPORTANTE:</p>
+    <p class="font-bold" dir="ltr">MPORTANTE:</p>
     
     <p dir="ltr">🚚 Para garantir que sua encomenda seja entregue com rapidez e efici&ecirc;ncia, &eacute; importante verificar se h&aacute; disponibilidade de entrega em sua regi&atilde;o.</p>
     
@@ -287,10 +271,11 @@ Este colchão recebe uma espessa camada de Ultracel® com Gel que garante maior 
     
     <p dir="ltr">&nbsp;</p>
     
+              </p>
             </div>
           </div>
+        </div>
       </section>
-
 
     )
 }
