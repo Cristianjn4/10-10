@@ -257,7 +257,8 @@ export function L736Item() {
     
     
               <hr class="my-6 md:my-8 border-gray-200" />
-    
+              <div className="text-black">
+
     <p class="font-bold" dir="ltr">SOBRE O PRODUTO:</p>
     
     <p>O colchão L736 possui a exclusiva espuma Ultracel® que possui suas células abertas que aumentam a passagem de ar no colchão. Aliada com o Látex, a passagem de ar do colchão aumenta excepcionalmente, garantindo maior desempenho em evitar a proliferação de ácaros e bactérias e na não retenção de umidade.
@@ -284,17 +285,7 @@ Molejo ensacado high core
         
         <br/><br/>
 
-
-    <p class="font-bold" dir="ltr">MPORTANTE:</p>
-    
-    <p dir="ltr">🚚 Para garantir que sua encomenda seja entregue com rapidez e efici&ecirc;ncia, &eacute; importante verificar se h&aacute; disponibilidade de entrega em sua regi&atilde;o.</p>
-    
-    <p dir="ltr">📦 Caso haja disponibilidade de estoque, a entrega ser&aacute; feita em at&eacute; &rarr; 15 dias &uacute;teis. No entanto, se o produto n&atilde;o estiver dispon&iacute;vel, a entrega pode levar at&eacute; &rarr; 30 dias.&nbsp;</p>
-    
-    <p dir="ltr">Agradecemos pela sua compreens&atilde;o e esperamos que voc&ecirc; tenha uma excelente experi&ecirc;ncia de compra conosco.</p>
-    
-    <p dir="ltr">&nbsp;</p>
-    
+             </div>
             </div>
           </div>
         </div>

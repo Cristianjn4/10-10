@@ -104,7 +104,7 @@ export function SpiralItem() {
 
               <div class="mt-6 sm:gap-4 sm:items-center sm:flex sm:mt-8">
                 <a
-                  href=""
+                  href="--Whindhan Posture Spiral"
                   target="blank"
                   title=""
                   class="flex items-center justify-center py-2.5 px-5 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:border-green-500 hover:text-green-500 focus:z-10 focus:ring-4 focus:ring-gray-100"
@@ -257,7 +257,8 @@ export function SpiralItem() {
     
     
               <hr class="my-6 md:my-8 border-gray-200" />
-    
+              
+    <div className="text-black">
     <p class="font-bold" dir="ltr">SOBRE O PRODUTO:</p>
     
     <p>Manta de algodão, látex e espuma macia fazem do colchão Windhan grandioso quando assunto é conforto superplush. Este colchão recebe ainda as molas de fio contínuo não entrelaçado Posture Spiral®, com sua amarração “cabeça-pés” minimiza a movimentação lateral.
@@ -267,7 +268,7 @@ export function SpiralItem() {
         <br/>
 
     </p>
-
+        
 
     <p class="font-bold" dir="ltr">COPOSIÇÃO:</p>
  
@@ -276,19 +277,9 @@ export function SpiralItem() {
 Molejo Posture Spiral®<br/>
         
         
-        <br/><br/>
-
-
-    <p class="font-bold" dir="ltr">MPORTANTE:</p>
+        <br/><br/>   
     
-    <p dir="ltr">🚚 Para garantir que sua encomenda seja entregue com rapidez e efici&ecirc;ncia, &eacute; importante verificar se h&aacute; disponibilidade de entrega em sua regi&atilde;o.</p>
-    
-    <p dir="ltr">📦 Caso haja disponibilidade de estoque, a entrega ser&aacute; feita em at&eacute; &rarr; 15 dias &uacute;teis. No entanto, se o produto n&atilde;o estiver dispon&iacute;vel, a entrega pode levar at&eacute; &rarr; 30 dias.&nbsp;</p>
-    
-    <p dir="ltr">Agradecemos pela sua compreens&atilde;o e esperamos que voc&ecirc; tenha uma excelente experi&ecirc;ncia de compra conosco.</p>
-    
-    <p dir="ltr">&nbsp;</p>
-    
+            </div>
             </div>
           </div>
         </div>

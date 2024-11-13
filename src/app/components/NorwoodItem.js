@@ -259,7 +259,8 @@ export function NorwoodItem() {
               <hr class="my-6 md:my-8 border-gray-200" />
     
     <p class="font-bold" dir="ltr">SOBRE O PRODUTO:</p>
-    
+    <div className="text-black">
+
     <p>
 
         Colchão com camadas de Ultracel e Viscoelástico em seu matelassê.
@@ -291,17 +292,8 @@ Utiliza o molejo Ensacado Rolled Core, com 20cm de altura.
         
         
         <br/><br/>
+        </div>
 
-
-    <p class="font-bold" dir="ltr">MPORTANTE:</p>
-    
-    <p dir="ltr">🚚 Para garantir que sua encomenda seja entregue com rapidez e efici&ecirc;ncia, &eacute; importante verificar se h&aacute; disponibilidade de entrega em sua regi&atilde;o.</p>
-    
-    <p dir="ltr">📦 Caso haja disponibilidade de estoque, a entrega ser&aacute; feita em at&eacute; &rarr; 15 dias &uacute;teis. No entanto, se o produto n&atilde;o estiver dispon&iacute;vel, a entrega pode levar at&eacute; &rarr; 30 dias.&nbsp;</p>
-    
-    <p dir="ltr">Agradecemos pela sua compreens&atilde;o e esperamos que voc&ecirc; tenha uma excelente experi&ecirc;ncia de compra conosco.</p>
-    
-    <p dir="ltr">&nbsp;</p>
     
             </div>
           </div>

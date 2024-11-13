@@ -117,7 +117,7 @@ export function Lista() {
             <a href="/hackney" className="group">
                 <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis </div>
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounde d-md   bg-stone-200 xl:aspect-h-8 xl:aspect-w-7 border-2 border-white group-hover:border-stone-700">
-                <img src="https://www.colchaostallion.com.br/wp-content/uploads/2021/12/8F2FDC4F-7429-4496-9741-2AB973E99A68.png" className="h-full w-full object-cover object-center group-hover:opacity-90"/>
+                <img src="hackney.png" className="h-full w-full object-cover object-center group-hover:opacity-90"/>
               </div>
 
                 <div>
@@ -132,7 +132,7 @@ export function Lista() {
             <a href="/due" className="group">
                 <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis </div>
               <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounde d-md   bg-stone-200 xl:aspect-h-8 xl:aspect-w-7 border-2 border-white group-hover:border-stone-700">
-                <img src="https://www.colchaostallion.com.br/wp-content/uploads/2021/12/F7522018-D0BE-441F-90F7-2D89FEE16A39.png" className="h-full w-full object-cover object-center group-hover:opacity-90"/>
+                <img src="duealpaca.png" className="h-full w-full object-cover object-center group-hover:opacity-90"/>
               </div>
 
                 <div>

@@ -231,7 +231,8 @@ export function MaxItem() {
     
     
               <hr class="my-6 md:my-8 border-gray-200" />
-    
+              <div className="text-black">
+ 
     <p class="font-bold" dir="ltr">SOBRE O PRODUTO:</p>
     
     <p>Um colchão completo com fibras naturais e 12cm a mais do puro latex, o que garante um conforto e individualidade excepcionais para você ter uma noite de sono capaz de entregar a sua melhor versão ao acordar.
@@ -281,18 +282,10 @@ export function MaxItem() {
             Dual Support System
                     </p>
     <br/>
-
-    <p class="font-bold" dir="ltr">MPORTANTE:</p>
-    
-    <p dir="ltr">🚚 Para garantir que sua encomenda seja entregue com rapidez e efici&ecirc;ncia, &eacute; importante verificar se h&aacute; disponibilidade de entrega em sua regi&atilde;o.</p>
-    
-    <p dir="ltr">📦 Caso haja disponibilidade de estoque, a entrega ser&aacute; feita em at&eacute; &rarr; 15 dias &uacute;teis. No entanto, se o produto n&atilde;o estiver dispon&iacute;vel, a entrega pode levar at&eacute; &rarr; 30 dias.&nbsp;</p>
-    
-    <p dir="ltr">Agradecemos pela sua compreens&atilde;o e esperamos que voc&ecirc; tenha uma excelente experi&ecirc;ncia de compra conosco.</p>
-    
-    <p dir="ltr">&nbsp;</p>
     
               </p>
+              </div>
+
             </div>
           </div>
         </div>

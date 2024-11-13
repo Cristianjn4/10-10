@@ -119,7 +119,7 @@ export function DueItem() {
     </button>
     
     {/* Dropdown menu */}
-    <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 rounded-lg shadow-lg rounded-lg border-2 border-stone-200  w-64 h-44 overflow-y-auto">
+    <div id="dropdownDivider" class="z-10 hidden bg-white divide-y divide-gray-100 shadow-lg rounded-lg border-2 border-stone-200  w-64 h-44 overflow-y-auto">
         <ul class="py-2 text-sm text-gray-700" aria-labelledby="dropdownDividerButton">
         <li>
             <a href="#" class="block px-4 py-2 hover:bg-gray-100">Jundiaí</a>
@@ -225,7 +225,8 @@ export function DueItem() {
     
     
               <hr class="my-6 md:my-8 border-gray-200" />
-    
+              <div className="text-black">
+
     <p class="font-bold" dir="ltr">SOBRE O PRODUTO:</p>
     
     <p>Colchão com Duplo Molejo.
@@ -261,17 +262,9 @@ Ensacado High Core 20cm<br/>
         </p>
     <br/>
 
-    <p class="font-bold" dir="ltr">MPORTANTE:</p>
-    
-    <p dir="ltr">🚚 Para garantir que sua encomenda seja entregue com rapidez e efici&ecirc;ncia, &eacute; importante verificar se h&aacute; disponibilidade de entrega em sua regi&atilde;o.</p>
-    
-    <p dir="ltr">📦 Caso haja disponibilidade de estoque, a entrega ser&aacute; feita em at&eacute; &rarr; 15 dias &uacute;teis. No entanto, se o produto n&atilde;o estiver dispon&iacute;vel, a entrega pode levar at&eacute; &rarr; 30 dias.&nbsp;</p>
-    
-    <p dir="ltr">Agradecemos pela sua compreens&atilde;o e esperamos que voc&ecirc; tenha uma excelente experi&ecirc;ncia de compra conosco.</p>
-    
-    <p dir="ltr">&nbsp;</p>
-    
               </p>
+              </div>
+
             </div>
           </div>
         </div>

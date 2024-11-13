@@ -267,7 +267,8 @@ export function EllisItem() {
     
     
               <hr class="my-6 md:my-8 border-gray-200" />
-    
+              <div className="text-black">
+
     <p class="font-bold" dir="ltr">SOBRE O PRODUTO:</p>
     
     <p>Drew e Jonathan Scott entendem que uma noite de sono saudável, confortável e rejuvenescedora dá origem a manhãs melhores. Resgate o seu sono melhor com um colchão híbrido Ellis Level I. Com AlumiLast®, além do sistema de molejo Q5 Twin® Support, o colchão Ellis oferece um sistema de sono completo a preço acessível. Você terá um sono de suporte, noite após noite, com duas opções:
@@ -302,18 +303,8 @@ export function EllisItem() {
         
         
         <br/><br/>
-
-
-    <p class="font-bold" dir="ltr">MPORTANTE:</p>
-    
-    <p dir="ltr">🚚 Para garantir que sua encomenda seja entregue com rapidez e efici&ecirc;ncia, &eacute; importante verificar se h&aacute; disponibilidade de entrega em sua regi&atilde;o.</p>
-    
-    <p dir="ltr">📦 Caso haja disponibilidade de estoque, a entrega ser&aacute; feita em at&eacute; &rarr; 15 dias &uacute;teis. No entanto, se o produto n&atilde;o estiver dispon&iacute;vel, a entrega pode levar at&eacute; &rarr; 30 dias.&nbsp;</p>
-    
-    <p dir="ltr">Agradecemos pela sua compreens&atilde;o e esperamos que voc&ecirc; tenha uma excelente experi&ecirc;ncia de compra conosco.</p>
-    
-    <p dir="ltr">&nbsp;</p>
-    
+        </div>
+  
             </div>
           </div>
         </div>

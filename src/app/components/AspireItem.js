@@ -257,6 +257,7 @@ export function AspireItem() {
     
     
               <hr class="my-6 md:my-8 border-gray-200" />
+              <div className="text-black">
     
     <p class="font-bold" dir="ltr">SOBRE O PRODUTO:</p>
     
@@ -293,9 +294,9 @@ Rolled (enrolado)
     <p dir="ltr">📦 Caso haja disponibilidade de estoque, a entrega ser&aacute; feita em at&eacute; &rarr; 15 dias &uacute;teis. No entanto, se o produto n&atilde;o estiver dispon&iacute;vel, a entrega pode levar at&eacute; &rarr; 30 dias.&nbsp;</p>
     
     <p dir="ltr">Agradecemos pela sua compreens&atilde;o e esperamos que voc&ecirc; tenha uma excelente experi&ecirc;ncia de compra conosco.</p>
-    
-    <p dir="ltr">&nbsp;</p>
-    
+        
+    </div>
+
             </div>
           </div>
         </div>
