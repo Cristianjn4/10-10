@@ -7,7 +7,7 @@ export function Destaque(){
             </h3>
             
             <div className=" h-auto  md:flex lg:flex align m-auto gap-8 text-center ">
-                <div className="bg-transparent h-auto rounded-full m-auto py-3">
+                <div className="bg-transparent w-2/3 rounded-full m-auto py-3">
                     <a href="/products">
                     <img  src="https://restonic.com.br/wp-content/uploads/2023/08/selos-2023-min-e1714164950190.png" alt="" className=" lg:px-20" />
                     </a>
