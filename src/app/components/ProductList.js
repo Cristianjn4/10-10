@@ -112,50 +112,6 @@ export function Lista() {
                  
             </a>
 
-            {/** Kingpedic Victoria Latex */}
-            
-            <a href="/victoria" className="group">
-                <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis </div>
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounde d-md   bg-stone-200 xl:aspect-h-8 xl:aspect-w-7 border-2 border-white group-hover:border-stone-700">
-                <img src="https://kingpedic.com.br/wsite/_upl/produtos/b860676eec1e281442430676fb12ccb6.jpg" className="h-full w-full object-cover object-center group-hover:opacity-90"/>
-              </div>
-
-                <div>
-                <h3 className="mt-4 text-sm text-stone-700">Intermediário</h3>
-                <p className="mt-1 text-lg font-medium text-stone-900">Kingpedic Victoria Latex</p>
-                </div>
-                 
-            </a>
-            
-            {/** Kingpedic High Comfort Visco ROLLED */}
-            
-            <a href="/highcomfort" className="group">
-                <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis </div>
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounde d-md   bg-stone-200 xl:aspect-h-8 xl:aspect-w-7 border-2 border-white group-hover:border-stone-700">
-                <img src="https://kingpedic.com.br/wsite/_upl/produtos/1e60fc58813ca8804948a75ed98f53fd.jpg" className="h-full w-full object-cover object-center group-hover:opacity-90"/>
-              </div>
-
-                <div>
-                <h3 className="mt-4 text-sm text-stone-700">Super Macio</h3>
-                <p className="mt-1 text-lg font-medium text-stone-900">Kingpedic High Comfort Visco ROLLED</p>
-                </div>
-                 
-            </a>
-            {/** Norwood Latex */}
-            
-            <a href="/norwood" className="group">
-                <div className="text-white bg-stone-900 rounded-lg w-auto m-4 px-3 absolute text-center"> Frete Grátis </div>
-              <div className="aspect-h-1 aspect-w-1 w-full overflow-hidden rounde d-md   bg-stone-200 xl:aspect-h-8 xl:aspect-w-7 border-2 border-white group-hover:border-stone-700">
-                <img src="https://kingpedic.com.br/wsite/_upl/produtos/753f21c92a5f8e89d43ba87a35ef4797.jpg" className="h-full w-full object-cover object-center group-hover:opacity-90"/>
-              </div>
-
-                <div>
-                <h3 className="mt-4 text-sm text-stone-700">Intermediário</h3>
-                <p className="mt-1 text-lg font-medium text-stone-900">Orbhes Norwood</p>
-                </div>
-                 
-            </a>
-
             {/** Hackney Stallion */}
             
             <a href="/hackney" className="group">

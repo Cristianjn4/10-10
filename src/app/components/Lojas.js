@@ -17,7 +17,7 @@ export function Lojas(){
     className="w-[450px] h-[450px] object-cover m-auto rounded-md"
     />
       <h3 className="text-2xl font-bold mt-4 text-gray-900 md:text-3xl">
-        Loja Restonic em Jundiaí 
+      Loja de colchões em Jundiaí | Exclusiva Restonic
       </h3>
 
 
@@ -60,7 +60,7 @@ export function Lojas(){
     className="w-[450px] h-[450px] object-cover m-auto rounded-md"
     />
       <h3 className="text-2xl font-bold mt-4 text-gray-900 md:text-3xl">
-      Loja Restonic em Itatiba
+      Loja de colchões em Itatiba | Exclusiva Restonic
       </h3>
 
 
