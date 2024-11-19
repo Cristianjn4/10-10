@@ -14,7 +14,7 @@ export function Lojas(){
     <img
     alt=""
     src="jundiai_loja.png"
-    className="w-[450px] h-[300px] object-cover m-auto rounded-md"
+    className="w-[500px] h-[360px] object-cover m-auto rounded-md"
     />
       <h3 className="text-xl font-bold mt-4 text-gray-900 md:text-3xl">
       Loja de colchões em Jundiaí | Exclusiva Restonic
@@ -57,7 +57,7 @@ export function Lojas(){
     <img
     alt=""
     src="itatiba_loja.jpg"
-    className="w-[450px] h-[300px] object-cover m-auto rounded-md"
+    className="w-[500px] h-[360px] object-cover m-auto rounded-md"
     />
       <h3 className="text-xl font-bold mt-4 text-gray-900 md:text-3xl">
       Loja de colchões em Itatiba | Exclusiva Restonic
