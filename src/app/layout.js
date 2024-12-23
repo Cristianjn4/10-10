@@ -1,6 +1,6 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-
+import { GoogleTag } from "";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
@@ -29,7 +29,8 @@ export default function RootLayout({ children }) {
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/tw-elements/css/tw-elements.min.css" />
 
-      </head>
+      </head> 
+      
       <body className={montserrat.className} >
         {children}
       <script src="https://cdn.jsdelivr.net/npm/flowbite@2.4.1/dist/flowbite.min.js"></script>
