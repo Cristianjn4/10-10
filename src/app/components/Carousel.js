@@ -21,11 +21,14 @@ export function Carousel(){
              <div className="hidden duration-700 ease-in-out" data-carousel-item>
                 <video className="w-full" src="./banner-rotativo-2.mp4" type="video.mp4" autoPlay muted loop></video>            
             </div>
-             {/* Item 5 */}
+             {/* Item 05 */}
              <div className="hidden duration-700 ease-in-out" data-carousel-item>
                 <video className="w-full" src="./banner-rotativo-3.mp4" type="video.mp4" autoPlay muted loop></video>            
             </div>
             
+
+
+
         </div>
 
         {/* Slider indicators */}
