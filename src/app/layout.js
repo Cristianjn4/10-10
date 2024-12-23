@@ -1,6 +1,5 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import { GoogleTag } from "";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata = {
